@@ -5,8 +5,7 @@ export const SITE = {
   shortName: "IPTV Kopen",
   domain: "kopen-iptv-abonnement.site",
   url: "https://kopen-iptv-abonnement.site",
-  // TODO: replace with the real WhatsApp business number (with country code, no + or spaces)
-  whatsappNumber: "31600000000",
+  whatsappNumber: "447902849201",
   whatsappMessage: "Hoi, ik wil graag meer weten over een IPTV abonnement.",
   locale: "nl_NL",
   themeColor: "#0a1628",

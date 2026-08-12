@@ -1,22 +1,17 @@
 import type { Metadata } from "next";
 import SectionHeader from "@/components/SectionHeader";
-import PricingCard, { Plan } from "@/components/PricingCard";
+import PricingCard from "@/components/PricingCard";
 import { pageMeta, whatsappUrl } from "@/lib/site";
+import { PLANS } from "@/lib/plans";
 
 export const metadata: Metadata = pageMeta({
   title: "IPTV België | IPTV Kopen — Belgische Zenders in HD/4K",
   description:
-    "IPTV België bij IPTV Kopen: alle Belgische zenders (VTM, VRT, Eén, Canvas, Sporza) + 35.000+ internationale kanalen in HD/4K. Direct actief.",
+    "IPTV België bij IPTV Kopen: alle Belgische zenders (VTM, VRT, Eén, Canvas, Sporza) + 21.000+ internationale kanalen in HD/4K. Direct actief.",
   path: "/iptv-belgie",
 });
 
 const BE_CHANNELS = ["VTM", "VRT 1", "Eén", "Canvas", "Sporza", "VTM 2", "Play4", "Play5", "Q2", "Ketnet"];
-
-const PLANS: Plan[] = [
-  { duration: "3 Maanden", price: "€X,XX", oldPrice: "€X,XX", perMonth: "Meest flexibel • €X,XX/maand", tagline: "Flexibele keuze — geen lange termijn", devices: "1 apparaat" },
-  { duration: "12 Maanden", price: "€X,XX", oldPrice: "€X,XX", perMonth: "Meest gekozen • €X,XX/maand", badge: "Populair", tagline: "Maximaal voordeel — laagste prijs", devices: "1 apparaat", featured: true },
-  { duration: "12 Maanden Gezin", price: "€X,XX", oldPrice: "€X,XX", perMonth: "Gezinspakket • 2 apparaten tegelijk", badge: "Beste deal", tagline: "Perfect voor gezinnen", devices: "2 apparaten tegelijk" },
-];
 
 export default function IptvBelgiePage() {
   return (
@@ -28,7 +23,7 @@ export default function IptvBelgiePage() {
             IPTV België — <span className="gradient-text">alle Belgische zenders</span> in HD/4K
           </h1>
           <p className="muted text-lg mt-6 max-w-2xl mx-auto leading-relaxed">
-            VTM, VRT, Eén, Canvas, Sporza en meer — samen met 35.000+
+            VTM, VRT, Eén, Canvas, Sporza en meer — samen met 21.000+
             internationale zenders in één stabiel IPTV abonnement.
           </p>
           <a href={whatsappUrl("Hoi, ik wil graag meer weten over IPTV in België.")} target="_blank" rel="noopener noreferrer" className="btn-primary mt-8 inline-flex">
@@ -57,7 +52,7 @@ export default function IptvBelgiePage() {
           />
           <div className="grid sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
             {PLANS.map((plan) => (
-              <PricingCard key={plan.duration} plan={plan} />
+              <PricingCard key={plan.id} plan={plan} />
             ))}
           </div>
         </div>

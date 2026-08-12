@@ -1,26 +1,20 @@
 import type { Metadata } from "next";
-import { Check, Tv, Smartphone, Server, ShieldCheck } from "lucide-react";
+import { Tv, Smartphone, Server, ShieldCheck } from "lucide-react";
 import SectionHeader from "@/components/SectionHeader";
-import PricingCard, { Plan } from "@/components/PricingCard";
+import PricingCard from "@/components/PricingCard";
 import { pageMeta, whatsappUrl } from "@/lib/site";
+import { PLANS, priceNL } from "@/lib/plans";
 
 export const metadata: Metadata = pageMeta({
-  title: "IPTV Abonnement | IPTV Kopen — Vanaf €X,XX/maand",
+  title: `IPTV Abonnement | IPTV Kopen — Vanaf ${priceNL(PLANS[0].price)}`,
   description:
-    "Ontdek het ultieme IPTV abonnement bij IPTV Kopen: 35.000+ zenders, films, series en live sport in HD/4K. Direct actief ✓ 7 dagen geld-terug.",
+    "Ontdek het ultieme IPTV abonnement bij IPTV Kopen: 21.000+ zenders, films, series en live sport in HD/4K. Direct actief ✓ 7 dagen geld-terug.",
   path: "/iptv-abonnement",
 });
 
-const PLANS: Plan[] = [
-  { duration: "3 Maanden", price: "€X,XX", oldPrice: "€X,XX", perMonth: "Meest flexibel • €X,XX/maand", tagline: "Flexibele keuze — geen lange termijn", devices: "1 apparaat" },
-  { duration: "12 Maanden", price: "€X,XX", oldPrice: "€X,XX", perMonth: "Meest gekozen • €X,XX/maand", badge: "Populair", tagline: "Maximaal voordeel — laagste prijs", devices: "1 apparaat", featured: true },
-  { duration: "12 Maanden Gezin", price: "€X,XX", oldPrice: "€X,XX", perMonth: "Gezinspakket • 2 apparaten tegelijk", badge: "Beste deal", tagline: "Perfect voor gezinnen", devices: "2 apparaten tegelijk" },
-  { duration: "24 Maanden", price: "€X,XX", oldPrice: "€X,XX", perMonth: "Langste termijn", tagline: "Voor wie zeker is van zijn keuze", devices: "1 apparaat" },
-];
-
 const SPECS = [
-  { icon: Tv, label: "35.000+ tv-zenders", desc: "Nederlandse, Belgische en internationale zenders in één pakket." },
-  { icon: Smartphone, label: "179.000+ films & series", desc: "Een uitgebreide VOD-bibliotheek, wekelijks aangevuld." },
+  { icon: Tv, label: "21.000+ tv-zenders", desc: "Nederlandse, Belgische en internationale zenders in één pakket." },
+  { icon: Smartphone, label: "63.000+ films & series", desc: "Een uitgebreide VOD-bibliotheek, wekelijks aangevuld." },
   { icon: Server, label: "Anti-buffer EU-servers", desc: "99,99% stabiliteit dankzij servers dicht bij huis." },
   { icon: ShieldCheck, label: "7 dagen geld-terug", desc: "Niet tevreden? Dan krijg je je geld terug, zonder gedoe." },
 ];
@@ -66,11 +60,11 @@ export default function IptvAbonnementPage() {
           <SectionHeader
             eyebrow="Prijzen"
             title="Kies jouw IPTV abonnement"
-            description="Alle pakketten bevatten dezelfde volledige zenderlijst en VOD-bibliotheek — het verschil zit in looptijd en aantal apparaten."
+            description="Alle pakketten bevatten dezelfde volledige zenderlijst en VOD-bibliotheek — het verschil zit in looptijd en aantal schermen."
           />
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
             {PLANS.map((plan) => (
-              <PricingCard key={plan.duration} plan={plan} />
+              <PricingCard key={plan.id} plan={plan} />
             ))}
           </div>
         </div>

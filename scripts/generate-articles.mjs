@@ -449,8 +449,28 @@ Elk onderwerp moet een categorie hebben uit: install, device, sport, pricing, te
 Antwoord UITSLUITEND met een geldige JSON-array, zonder markdown of tekst eromheen, in exact dit formaat:
 [{"keyword": "...", "angle": "...", "category": "..."}, ...]`;
 
-  const newTopics = await callModelJSON(prompt);
-  return newTopics.map((t) => ({ ...t, status: "pending" }));
+  // extractJSON() grabs the first balanced {...} or [...] it finds -- if the
+  // model wraps its array in an object (e.g. {"topics": [...]}) despite the
+  // "UITSLUITEND een JSON-array" instruction, extractJSON returns that outer
+  // object instead of the array, and .map() below would throw a TypeError
+  // (observed in production: "newTopics.map is not a function"). Validating
+  // the shape here makes callModelJSON retry/fall through models instead,
+  // same as every other model call in this file; the unwrap is a fallback
+  // for the common wrapper-object case so a good response still gets used.
+  const isValidTopicArray = (v) =>
+    Array.isArray(v) && v.every((t) => t && typeof t.keyword === "string" && typeof t.category === "string");
+
+  const unwrap = (parsed) => {
+    if (isValidTopicArray(parsed)) return parsed;
+    if (parsed && typeof parsed === "object") {
+      const arr = Object.values(parsed).find(isValidTopicArray);
+      if (arr) return arr;
+    }
+    return parsed;
+  };
+
+  const newTopics = await callModelJSON(prompt, (parsed) => isValidTopicArray(unwrap(parsed)));
+  return unwrap(newTopics).map((t) => ({ ...t, status: "pending" }));
 }
 
 async function processTopic(topic, { slugs, today }) {

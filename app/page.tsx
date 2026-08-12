@@ -1,54 +1,17 @@
 import type { Metadata } from "next";
 import { Check, Tv, ShieldCheck, Zap, Headset, Trophy, Film, MonitorPlay, Star } from "lucide-react";
 import SectionHeader from "@/components/SectionHeader";
-import PricingCard, { Plan } from "@/components/PricingCard";
+import PricingCard from "@/components/PricingCard";
 import FaqAccordion from "@/components/FaqAccordion";
 import { pageMeta, whatsappUrl } from "@/lib/site";
+import { PLANS } from "@/lib/plans";
 
 export const metadata: Metadata = pageMeta({
   title: "IPTV Kopen | Beste IPTV Abonnement Nederland & België",
   description:
-    "Op zoek naar een betrouwbaar IPTV abonnement? IPTV Kopen is eenvoudig, snel en veilig. 35.000+ zenders, HD/4K, 24/7 WhatsApp support en 7 dagen geld-terug-garantie.",
+    "Op zoek naar een betrouwbaar IPTV abonnement? IPTV Kopen is eenvoudig, snel en veilig. 21.000+ zenders, HD/4K, 24/7 WhatsApp support en 7 dagen geld-terug-garantie.",
   path: "/",
 });
-
-const PLANS: Plan[] = [
-  {
-    duration: "3 Maanden",
-    price: "€X,XX",
-    oldPrice: "€X,XX",
-    perMonth: "Meest flexibel • €X,XX/maand",
-    tagline: "Flexibele keuze — geen lange termijn",
-    devices: "1 apparaat",
-  },
-  {
-    duration: "12 Maanden",
-    price: "€X,XX",
-    oldPrice: "€X,XX",
-    perMonth: "Meest gekozen • €X,XX/maand",
-    badge: "Populair",
-    tagline: "Maximaal voordeel — laagste prijs",
-    devices: "1 apparaat",
-    featured: true,
-  },
-  {
-    duration: "12 Maanden Gezin",
-    price: "€X,XX",
-    oldPrice: "€X,XX",
-    perMonth: "Gezinspakket • 2 apparaten tegelijk",
-    badge: "Beste deal",
-    tagline: "Perfect voor gezinnen",
-    devices: "2 apparaten tegelijk",
-  },
-  {
-    duration: "24 Maanden",
-    price: "€X,XX",
-    oldPrice: "€X,XX",
-    perMonth: "Langste termijn • laagste prijs per maand",
-    tagline: "Voor wie zeker is van zijn keuze",
-    devices: "1 apparaat",
-  },
-];
 
 const APPS = ["IPTV Smarters", "TiviMate", "GSE Smart IPTV", "Smart IPTV", "VLC Player", "Perfect Player"];
 
@@ -172,14 +135,11 @@ export default function HomePage() {
             title="Kies jouw IPTV Abonnement — IPTV Nederland"
             description="Kies de formule die bij je past en geniet van een stabiel IPTV abonnement in HD/4K, met WhatsApp support 7/7 en 7 dagen geld-terug-garantie."
           />
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
             {PLANS.map((plan) => (
-              <PricingCard key={plan.duration} plan={plan} />
+              <PricingCard key={plan.id} plan={plan} />
             ))}
           </div>
-          <p className="text-center text-xs muted mt-8">
-            * Prijzen zijn indicatief en worden binnenkort bijgewerkt.
-          </p>
         </div>
       </section>
 
