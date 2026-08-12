@@ -14,7 +14,8 @@ export type Post = {
   coverAlt: string;
   category: string;
   categoryLabel: string;
-  sections: { heading?: string; body: string[] }[];
+  sections: { heading?: string; body: string[]; list?: string[] }[];
+  faq: { q: string; a: string }[];
 };
 
 function loadPosts(): Post[] {

@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "keyword": "Nederlandse IPTV",
+    "angle": "uitgebreide introductiegids: wat het is en waarom kiezen voor Nederlandse IPTV",
+    "category": "general",
+    "status": "done",
+    "slug": "nederlandse-iptv"
+  },
+  {
+    "keyword": "IPTV Nederland",
+    "angle": "compleet overzicht van IPTV in Nederland: zenders, apparaten en betrouwbaarheid",
+    "category": "general",
+    "status": "done",
+    "slug": "iptv-nederland"
+  },
+  {
+    "keyword": "IPTV abonnementen",
+    "angle": "hoe kies je het juiste IPTV-abonnement: looptijd, prijs en functies vergelijken",
+    "category": "pricing",
+    "status": "done",
+    "slug": "iptv-abonnementen",
+    "source": "custom"
+  }
+]
