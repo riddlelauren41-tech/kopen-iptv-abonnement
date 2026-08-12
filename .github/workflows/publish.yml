@@ -1,0 +1,89 @@
+name: Publish blog articles
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # 08:00 GMT+2
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "Number of articles to generate (ignored if Topic is set)"
+        required: false
+        default: "1"
+      topic:
+        description: "Custom topic (leave empty to pull from the topic queue instead)"
+        required: false
+        default: ""
+      angle:
+        description: "Angle / extra instructions for the custom topic"
+        required: false
+        default: ""
+      category:
+        description: "Category for the custom topic (install, device, sport, pricing, technique, comparatif, general)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm ci
+
+      - name: Generate articles
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          COUNT: ${{ github.event.inputs.count }}
+          TOPIC: ${{ github.event.inputs.topic }}
+          ANGLE: ${{ github.event.inputs.angle }}
+          CATEGORY: ${{ github.event.inputs.category }}
+        run: |
+          if [ -n "$TOPIC" ]; then
+            node scripts/generate-articles.mjs --topic="$TOPIC" --angle="$ANGLE" --category="$CATEGORY"
+          else
+            node scripts/generate-articles.mjs --count="${COUNT:-1}"
+          fi
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git status --porcelain content/posts content/topics.json public/blog/generated | grep -q .; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Collect new post URLs
+        id: newposts
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          slugs=$(git status --porcelain content/posts | awk '{print $2}' | xargs -n1 basename | sed 's/\.json$//')
+          urls=$(for s in $slugs; do echo -n "\"https://kopen-iptv-abonnement.site/nieuws/$s/\","; done | sed 's/,$//')
+          echo "urls=[$urls]" >> "$GITHUB_OUTPUT"
+
+      - name: Verify build
+        if: steps.changes.outputs.changed == 'true'
+        run: npm run build
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "riddlelauren41-tech"
+          git config user.email "riddlelauren41-tech@users.noreply.github.com"
+          git add content/posts content/topics.json public/blog/generated
+          git commit -m "Add auto-generated blog articles ($(date -u +%Y-%m-%d))"
+          git push
+
+      - name: Notify search engines about the new pages
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          sleep 45
+          curl -fsS "https://www.google.com/ping?sitemap=https://kopen-iptv-abonnement.site/sitemap.xml" || true
+          curl -fsS "https://www.bing.com/ping?sitemap=https://kopen-iptv-abonnement.site/sitemap.xml" || true
