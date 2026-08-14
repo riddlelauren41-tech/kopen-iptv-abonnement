@@ -20,5 +20,12 @@
     "status": "done",
     "slug": "iptv-abonnementen",
     "source": "custom"
+  },
+  {
+    "keyword": "IPTV en VPN",
+    "angle": "Waarom en hoe een VPN te gebruiken bij IPTV",
+    "category": "technique",
+    "status": "done",
+    "slug": "iptv-en-vpn"
   }
 ]
