@@ -6,11 +6,11 @@ export default function PricingCard({ plan }: { plan: Plan }) {
   return (
     <div
       className={`card relative flex flex-col p-7 ${
-        plan.featured ? "border-2 border-violet shadow-xl shadow-violet/10 md:-translate-y-3" : ""
+        plan.featured ? "border-2 border-orange shadow-xl shadow-orange/10 md:-translate-y-3" : ""
       }`}
     >
       {plan.badge && (
-        <span className="absolute -top-3 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-linear-to-r from-indigo to-violet px-4 py-1 text-xs font-semibold text-white">
+        <span className="absolute -top-3 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-linear-to-r from-orange-2 to-orange px-4 py-1 text-xs font-semibold text-white">
           {plan.badge}
         </span>
       )}
@@ -20,12 +20,12 @@ export default function PricingCard({ plan }: { plan: Plan }) {
         <span className="text-4xl font-bold font-display">{priceNL(plan.price)}</span>
       </div>
       <p className="text-sm muted mt-1">{plan.screens}</p>
-      <p className="text-sm font-medium text-violet mt-3">{plan.tagline}</p>
+      <p className="text-sm font-medium text-blue mt-3">{plan.tagline}</p>
 
       <ul className="mt-6 space-y-3 flex-1">
         {plan.features.map((f) => (
           <li key={f} className="flex items-start gap-2.5 text-sm">
-            <Check size={18} className="text-violet shrink-0 mt-0.5" />
+            <Check size={18} className="text-orange shrink-0 mt-0.5" />
             <span>{f}</span>
           </li>
         ))}

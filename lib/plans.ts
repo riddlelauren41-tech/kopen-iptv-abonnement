@@ -18,6 +18,15 @@ export type Plan = {
   estimated?: boolean;
 };
 
+const BASE_FEATURES = [
+  "21.000+ live tv-zenders uit Nederland, België en internationaal",
+  "63.000+ films & series, wekelijks aangevuld met nieuwe releases",
+  "Anti-freeze technologie voor HD, Full HD en 4K zonder buffering",
+  "Compatibel met alle grote IPTV-apps (IPTV Smarters Pro, TiviMate, XCIPTV)",
+  "TV terugkijken (Replay) + ingebouwde EPG TV-gids",
+  "Werkt op Smart TV, Android, iOS, Fire Stick en PC/Mac",
+];
+
 export const PLANS: Plan[] = [
   {
     id: "3-maanden",
@@ -26,11 +35,9 @@ export const PLANS: Plan[] = [
     screens: "1 scherm",
     tagline: "De officiële toegang, zonder risico",
     features: [
-      "21.000+ zenders",
-      "63.000+ films & series",
-      "HD · Full HD · 4K",
-      "Compatibel met alle IPTV-apps",
-      "Support 7/7",
+      ...BASE_FEATURES,
+      "Support 7/7 via WhatsApp",
+      "7 dagen geld-terug-garantie",
     ],
   },
   {
@@ -40,12 +47,9 @@ export const PLANS: Plan[] = [
     screens: "2 schermen tegelijk",
     tagline: "Flexibel voordeel voor een half jaar",
     features: [
-      "21.000+ zenders",
-      "63.000+ films & series",
-      "HD · Full HD · 4K",
-      "Anti-buffer servers",
-      "Compatibel met alle IPTV-apps",
-      "Prioriteit support 7/7",
+      ...BASE_FEATURES,
+      "Prioriteit support 7/7 via WhatsApp",
+      "7 dagen geld-terug-garantie",
     ],
   },
   {
@@ -57,13 +61,9 @@ export const PLANS: Plan[] = [
     badge: "Beste Deal",
     featured: true,
     features: [
-      "21.000+ zenders",
-      "63.000+ films & series",
-      "HD · Full HD · 4K",
-      "Anti-buffer servers",
-      "Compatibel met alle IPTV-apps",
-      "Gratis installatiehulp",
-      "VIP support 7/7",
+      ...BASE_FEATURES,
+      "Gratis installatiehulp + VIP support 7/7",
+      "7 dagen geld-terug-garantie",
     ],
   },
   {
@@ -74,13 +74,9 @@ export const PLANS: Plan[] = [
     tagline: "Laagste prijs per maand op lange termijn",
     estimated: true,
     features: [
-      "21.000+ zenders",
-      "63.000+ films & series",
-      "HD · Full HD · 4K",
-      "Anti-buffer servers",
-      "Compatibel met alle IPTV-apps",
-      "Gratis installatiehulp",
-      "VIP support 7/7",
+      ...BASE_FEATURES,
+      "Gratis installatiehulp + VIP support 7/7",
+      "Laagste prijs per maand van alle formules",
     ],
   },
 ];
@@ -105,14 +101,27 @@ export const MULTI_SCREEN_PLANS: MultiScreenPlan[] = [
     price: 54.99,
     tagline: "Ideaal voor een koppel of klein gezin",
     estimated: true,
-    features: ["12 maanden looptijd", "21.000+ zenders", "63.000+ films & series", "Anti-buffer servers"],
+    features: [
+      "12 maanden looptijd",
+      "21.000+ zenders",
+      "63.000+ films & series",
+      "Anti-buffer servers",
+      "Support 7/7 via WhatsApp",
+    ],
   },
   {
     id: "3-schermen",
     screens: "3 Schermen",
     price: 74.99,
     tagline: "Onze meest gekozen gezinsoptie",
-    features: ["12 maanden looptijd", "21.000+ zenders", "63.000+ films & series", "Anti-buffer servers"],
+    features: [
+      "12 maanden looptijd",
+      "21.000+ zenders",
+      "63.000+ films & series",
+      "Anti-buffer servers",
+      "Gratis installatiehulp",
+      "VIP support 7/7",
+    ],
   },
   {
     id: "4-schermen",
@@ -120,7 +129,14 @@ export const MULTI_SCREEN_PLANS: MultiScreenPlan[] = [
     price: 94.99,
     tagline: "Voor grotere gezinnen, overal tegelijk kijken",
     estimated: true,
-    features: ["12 maanden looptijd", "21.000+ zenders", "63.000+ films & series", "Anti-buffer servers"],
+    features: [
+      "12 maanden looptijd",
+      "21.000+ zenders",
+      "63.000+ films & series",
+      "Anti-buffer servers",
+      "Gratis installatiehulp",
+      "VIP support 7/7",
+    ],
   },
 ];
 

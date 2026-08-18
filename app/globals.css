@@ -4,14 +4,27 @@
   --font-display: "Sora", sans-serif;
   --font-body: "Inter", sans-serif;
 
-  --color-ink: #1e1e2f;
+  --color-ink: #0f172a;
   --color-body: #f7f7fb;
   --color-muted: #64748b;
   --color-border: #e5e7eb;
 
-  --color-indigo: #320f95;
-  --color-violet: #5b3fd6;
-  --color-sky: #6ec1e4;
+  /* Navy + orange -- matches the client's reference site direction (photo
+     hero, deep navy sections, orange accent for numbers/bullets/dividers,
+     blue CTA buttons), not the indigo/violet/sky palette used earlier. */
+  --color-navy: #0b2050;
+  --color-navy-2: #142f68;
+  --color-blue: #2563eb;
+  --color-blue-2: #1d4ed8;
+  --color-orange: #f97316;
+  --color-orange-2: #fb923c;
+
+  /* Kept as aliases so existing .dark-block/.gradient-text usages (and any
+     copy-pasted markup still referencing indigo/violet/sky) resolve to the
+     new palette instead of silently breaking. */
+  --color-indigo: var(--color-navy);
+  --color-violet: var(--color-blue);
+  --color-sky: var(--color-orange);
 }
 
 .font-display {
@@ -40,10 +53,23 @@ h4 {
 }
 
 .gradient-text {
-  background: linear-gradient(90deg, var(--color-indigo), var(--color-violet), var(--color-sky));
+  background: linear-gradient(90deg, var(--color-orange), var(--color-orange-2));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+/* Short 3-stop divider bar under section headings, matching the reference
+   site's blue-white-orange underline accent. */
+.heading-divider {
+  width: 5.5rem;
+  height: 4px;
+  margin: 0.9rem auto 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--color-blue), #ffffff, var(--color-orange));
+}
+.dark-block .heading-divider {
+  background: linear-gradient(90deg, var(--color-blue), #ffffff, var(--color-orange));
 }
 
 .btn-primary {
@@ -55,15 +81,34 @@ h4 {
   border-radius: 999px;
   font-weight: 600;
   color: white;
-  background: linear-gradient(90deg, var(--color-indigo), var(--color-violet));
-  box-shadow: 0 8px 24px -8px rgb(91 63 214 / 0.5);
+  background: linear-gradient(90deg, var(--color-blue-2), var(--color-blue));
+  box-shadow: 0 8px 24px -8px rgb(37 99 235 / 0.5);
   transition:
     transform 0.15s ease,
     box-shadow 0.15s ease;
 }
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 28px -8px rgb(91 63 214 / 0.6);
+  box-shadow: 0 12px 28px -8px rgb(37 99 235 / 0.6);
+}
+
+.btn-accent {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.9rem 1.75rem;
+  border-radius: 999px;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(90deg, var(--color-orange-2), var(--color-orange));
+  box-shadow: 0 8px 24px -8px rgb(249 115 22 / 0.5);
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+.btn-accent:hover {
+  transform: translateY(-2px);
 }
 
 .btn-ghost {
@@ -80,7 +125,7 @@ h4 {
   transition: border-color 0.15s ease;
 }
 .btn-ghost:hover {
-  border-color: var(--color-violet);
+  border-color: var(--color-blue);
 }
 
 .glass {
@@ -92,12 +137,16 @@ h4 {
 }
 
 .dark-block {
-  background: var(--color-ink);
+  background: var(--color-navy);
   color: white;
 }
 .dark-block .glass {
   background: rgb(255 255 255 / 0.06);
   border: 1px solid rgb(255 255 255 / 0.1);
+}
+.dark-block .card {
+  background: var(--color-navy-2);
+  border-color: rgb(255 255 255 / 0.1);
 }
 .dark-block .btn-ghost {
   background: transparent;
@@ -105,7 +154,7 @@ h4 {
   border-color: rgb(255 255 255 / 0.25);
 }
 .dark-block .btn-ghost:hover {
-  border-color: var(--color-sky);
+  border-color: var(--color-orange);
 }
 .dark-block h1,
 .dark-block h2,
@@ -114,7 +163,7 @@ h4 {
   color: white;
 }
 .dark-block .muted {
-  color: rgb(255 255 255 / 0.65);
+  color: rgb(255 255 255 / 0.7);
 }
 
 .muted {
@@ -148,6 +197,6 @@ h4 {
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--color-violet);
+  color: var(--color-orange);
   margin-bottom: 0.75rem;
 }
