@@ -2,14 +2,14 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { Menu, X, MessageCircle } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { SITE, whatsappUrl } from "@/lib/site";
 
 const LINKS = [
+  { href: "/", label: "Home" },
   { href: "/iptv-abonnement", label: "IPTV Abonnement" },
   { href: "/installatiegids", label: "Installatiegids" },
-  { href: "/iptv-belgie", label: "IPTV België" },
-  { href: "/nieuws", label: "Nieuws" },
+  { href: "/nieuws", label: "Nieuws/Blog" },
   { href: "/faq", label: "FAQ" },
   { href: "/contact", label: "Contact" },
 ];
@@ -38,8 +38,7 @@ export default function Navbar() {
 
         <div className="hidden lg:flex items-center gap-3">
           <a href={whatsappUrl()} target="_blank" rel="noopener noreferrer" className="btn-primary text-sm">
-            <MessageCircle size={16} />
-            Bestel via WhatsApp
+            Bestellen
           </a>
         </div>
 
@@ -65,8 +64,7 @@ export default function Navbar() {
             </Link>
           ))}
           <a href={whatsappUrl()} target="_blank" rel="noopener noreferrer" className="btn-primary text-sm mt-2">
-            <MessageCircle size={16} />
-            Bestel via WhatsApp
+            Bestellen
           </a>
         </div>
       )}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import SectionHeader from "@/components/SectionHeader";
 import PricingCard from "@/components/PricingCard";
+import PaymentIcons from "@/components/PaymentIcons";
 import { pageMeta, whatsappUrl } from "@/lib/site";
 import { PLANS } from "@/lib/plans";
 
@@ -50,10 +51,14 @@ export default function IptvBelgiePage() {
             title="IPTV abonnement voor België"
             description="Dezelfde stabiele HD/4K-kwaliteit, aangevuld met de volledige Belgische zenderlijst."
           />
-          <div className="grid sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {PLANS.map((plan) => (
               <PricingCard key={plan.id} plan={plan} />
             ))}
+          </div>
+          <div className="flex flex-col items-center gap-3 mt-10">
+            <p className="text-xs muted">Veilig betalen met</p>
+            <PaymentIcons />
           </div>
         </div>
       </section>

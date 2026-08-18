@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Tv, Smartphone, Server, ShieldCheck } from "lucide-react";
 import SectionHeader from "@/components/SectionHeader";
 import PricingCard from "@/components/PricingCard";
+import PaymentIcons from "@/components/PaymentIcons";
 import { pageMeta, whatsappUrl } from "@/lib/site";
 import { PLANS, priceNL } from "@/lib/plans";
 
@@ -62,10 +63,14 @@ export default function IptvAbonnementPage() {
             title="Kies jouw IPTV abonnement"
             description="Alle pakketten bevatten dezelfde volledige zenderlijst en VOD-bibliotheek — het verschil zit in looptijd en aantal schermen."
           />
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {PLANS.map((plan) => (
               <PricingCard key={plan.id} plan={plan} />
             ))}
+          </div>
+          <div className="flex flex-col items-center gap-3 mt-10">
+            <p className="text-xs muted">Veilig betalen met</p>
+            <PaymentIcons />
           </div>
         </div>
       </section>
