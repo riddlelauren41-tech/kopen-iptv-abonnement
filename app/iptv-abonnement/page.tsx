@@ -77,10 +77,11 @@ export default function IptvAbonnementPage() {
 
       <section className="section bg-white">
         <div className="container-px max-w-3xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-center">
             Waarom kiezen voor een IPTV abonnement bij IPTV Kopen?
           </h2>
-          <div className="space-y-4 text-sm leading-relaxed muted">
+          <div className="heading-divider" />
+          <div className="space-y-4 text-sm leading-relaxed muted mt-8">
             <p>
               Een IPTV abonnement bij IPTV Kopen combineert een volledige
               zenderlijst met een uitgebreide films- en seriesbibliotheek,

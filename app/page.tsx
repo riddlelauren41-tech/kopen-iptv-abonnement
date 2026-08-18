@@ -207,7 +207,7 @@ export default function HomePage() {
             <span className="eyebrow">Voordelen</span>
             <h2 className="text-3xl md:text-4xl font-bold">
               IPTV Abonnement —{" "}
-              <span className="bg-orange/90 text-white px-2 py-0.5 rounded-md inline-block">
+              <span className="bg-orange/90 text-white px-2 py-0.5 rounded-md box-decoration-clone">
                 voordelen van de beste IPTV
               </span>{" "}
               in Nederland

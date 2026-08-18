@@ -65,10 +65,11 @@ export default function IptvBelgiePage() {
 
       <section className="section bg-white">
         <div className="container-px max-w-3xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-center">
             Waarom kiezen Belgische kijkers voor IPTV Kopen?
           </h2>
-          <div className="space-y-4 text-sm leading-relaxed muted">
+          <div className="heading-divider" />
+          <div className="space-y-4 text-sm leading-relaxed muted mt-8">
             <p>
               Naast alle Nederlandse en internationale zenders bevat ons
               IPTV-abonnement ook de volledige Belgische zenderlijst: VTM,
