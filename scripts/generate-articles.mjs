@@ -411,7 +411,13 @@ Je antwoord moet direct beginnen met het teken { en eindigen met het teken }. Ge
     Array.isArray(a.faq) && a.faq.length >= 3 &&
     a.faq.every((f) => f && typeof f.q === "string" && typeof f.a === "string") &&
     countWords(a) >= 1500;
-  return callModelJSON(prompt, validate, 7000);
+  // Successful runs already use 5000-5900 of the previous 7000-token budget
+  // for body content alone (measured directly against real published posts)
+  // -- FAQ, headings, and JSON structural overhead sit on top of that, so a
+  // longer-than-usual article (or a verbose FAQ) had very little room before
+  // getting cut off mid-response, producing unbalanced/truncated JSON that
+  // extractJSON() correctly rejects as "no JSON found". Real headroom now.
+  return callModelJSON(prompt, validate, 10000);
 }
 
 async function isCoherent(sections) {
@@ -449,19 +455,24 @@ Elk onderwerp moet een categorie hebben uit: install, device, sport, pricing, te
 Antwoord UITSLUITEND met een geldige JSON-array, zonder markdown of tekst eromheen, in exact dit formaat:
 [{"keyword": "...", "angle": "...", "category": "..."}, ...]`;
 
-  // extractJSON() grabs the first balanced {...} or [...] it finds -- if the
-  // model wraps its array in an object (e.g. {"topics": [...]}) despite the
-  // "UITSLUITEND een JSON-array" instruction, extractJSON returns that outer
-  // object instead of the array, and .map() below would throw a TypeError
-  // (observed in production: "newTopics.map is not a function"). Validating
-  // the shape here makes callModelJSON retry/fall through models instead,
-  // same as every other model call in this file; the unwrap is a fallback
-  // for the common wrapper-object case so a good response still gets used.
-  const isValidTopicArray = (v) =>
-    Array.isArray(v) && v.every((t) => t && typeof t.keyword === "string" && typeof t.category === "string");
+  // Every callModelJSON request sets response_format: json_object, which
+  // forces the model to return a JSON *object* at the top level -- fine for
+  // every other prompt in this file (they all ask for an object), but this
+  // is the one prompt that wants a bare array. Root-caused in production
+  // (2026-08-15 through -18: every single day's brainstorm attempt failed,
+  // so the queue silently ran dry and the daily cron did nothing while still
+  // reporting green/"success"): with `needed` == 1 the model complies with
+  // the object constraint by returning ONE topic as a bare object --
+  // {"keyword": ..., "angle": ..., "category": ...} -- not wrapped in an
+  // array or in a {"topics": [...]} container. Neither of those first two
+  // shapes is an array, so unwrap() needs a third case: if the object itself
+  // already looks like a single topic, wrap it in a 1-element array.
+  const isTopicShape = (t) => t && typeof t.keyword === "string" && typeof t.category === "string";
+  const isValidTopicArray = (v) => Array.isArray(v) && v.every(isTopicShape);
 
   const unwrap = (parsed) => {
     if (isValidTopicArray(parsed)) return parsed;
+    if (isTopicShape(parsed)) return [parsed];
     if (parsed && typeof parsed === "object") {
       const arr = Object.values(parsed).find(isValidTopicArray);
       if (arr) return arr;
