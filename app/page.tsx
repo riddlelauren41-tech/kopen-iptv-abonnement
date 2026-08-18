@@ -206,11 +206,11 @@ export default function HomePage() {
           <div className="text-center max-w-2xl mx-auto mb-4">
             <span className="eyebrow">Voordelen</span>
             <h2 className="text-3xl md:text-4xl font-bold">
-              IPTV Abonnement —{" "}
-              <span className="bg-orange/90 text-white px-2 py-0.5 rounded-md box-decoration-clone">
+              <span className="block">IPTV Abonnement —</span>
+              <span className="inline bg-orange/90 text-white px-3 py-1 my-1.5 rounded-md box-decoration-clone">
                 voordelen van de beste IPTV
-              </span>{" "}
-              in Nederland
+              </span>
+              <span className="block">in Nederland</span>
             </h2>
             <div className="heading-divider" />
             <p className="muted mt-5 text-lg leading-relaxed">
