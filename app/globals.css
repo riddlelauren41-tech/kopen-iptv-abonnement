@@ -38,18 +38,24 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  background: var(--color-body);
-  color: var(--color-ink);
-  font-family: var(--font-body);
-}
+/* @layer base so these element defaults sit in Tailwind's own layer order
+   (base < components < utilities) -- without this, plain unlayered CSS
+   always wins over layered utility classes regardless of specificity, which
+   silently broke `text-white` on headings anywhere outside .dark-block. */
+@layer base {
+  body {
+    background: var(--color-body);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+  }
 
-h1,
-h2,
-h3,
-h4 {
-  font-family: var(--font-display);
-  color: var(--color-ink);
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    color: var(--color-ink);
+  }
 }
 
 .gradient-text {
