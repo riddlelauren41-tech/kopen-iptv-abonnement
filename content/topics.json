@@ -32,7 +32,8 @@
     "keyword": "IPTV Samsung Smart TV",
     "angle": "Stapsgewijze handleiding voor het installeren van IPTV op Samsung Smart TV",
     "category": "device",
-    "status": "pending"
+    "status": "done",
+    "slug": "iptv-samsung-smart-tv"
   },
   {
     "keyword": "IPTV voor sport",
