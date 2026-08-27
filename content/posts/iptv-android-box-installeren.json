@@ -1,0 +1,167 @@
+{
+  "slug": "iptv-android-box-installeren",
+  "title": "IPTV Android box installeren: complete stap-voor-stap gids voor Nederlandse gebruikers",
+  "date": "2026-08-27",
+  "author": "IPTV Kopen Team",
+  "readTime": 9,
+  "excerpt": "Leer hoe u IPTV op uw Android box installeert met deze diepgaande gids. Stap voor stap, van app tot configuratie, voor optimaal kijkplezier.",
+  "cover": "/blog/generated/iptv-android-box-installeren.jpg",
+  "coverAlt": "IPTV installeren op Android box met afstandsbediening en tv-scherm",
+  "category": "install",
+  "categoryLabel": "Installatie",
+  "sections": [
+    {
+      "heading": "Waarom een Android box de perfecte keuze is voor IPTV",
+      "body": [
+        "Een Android box is in feite een minicomputer die je simpelweg op je televisie aansluit. Het draait op het besturingssysteem van Google, waardoor je toegang hebt tot duizenden apps uit de Play Store. Voor <a href=\"https://nl.wikipedia.org/wiki/IPTV\" target=\"_blank\" rel=\"noopener noreferrer\">IPTV</a>-gebruikers is dit ideaal, omdat vrijwel alle populaire IPTV-apps zoals IPTV Smarters, TiviMate en GSE Smart IPTV beschikbaar zijn. Je krijgt hiermee een flexibele en krachtige mediaspeler in huis, zonder dat je een dure smart-tv hoeft te kopen.",
+        "Het grote voordeel van een Android box is de continue ondersteuning en updates. Waar veel smart-tv's na een paar jaar geen firmware-updates meer krijgen, kun je een Android box eenvoudig updaten naar een nieuwere Android-versie. Dat betekent dat je altijd verzekerd bent van de nieuwste beveiligingspatches en app-compatibiliteit. Bovendien zijn Android boxes vaak voorzien van voldoende rekenkracht om 4K-video vloeiend af te spelen, mits je abonnement dit ondersteunt.",
+        "Daarnaast biedt een Android box mogelijkheden die verder gaan dan alleen IPTV. Je kunt er ook andere streamingdiensten op gebruiken, zoals Netflix, Disney+ of HBO Max. Ook is het mogelijk om een externe harde schijf aan te sluiten voor eigen media. Al deze functionaliteit maakt de Android box tot een veelzijdig entertainmentcentrum. Voor wie een stabiele en uitbreidbare IPTV-oplossing zoekt, is het dan ook een van de beste keuzes op de markt.",
+        "Kortom, een Android box combineert gebruiksgemak met krachtige prestaties. Of je nu een goedkope stick gebruikt of een high-end model, de basisprincipes voor IPTV-installatie blijven hetzelfde. In de volgende secties leiden we je door het complete proces, zodat je snel en zonder problemen kunt genieten van je <a href=\"/iptv-abonnement\">IPTV abonnement</a>."
+      ],
+      "list": [
+        "Brede ondersteuning voor IPTV-apps via de Play Store",
+        "Regelmatige systeemupdates en beveiligingspatches",
+        "Krachtig genoeg voor HD- en 4K-streaming",
+        "Mogelijkheid tot uitbreiding met USB-apparaten en SD-kaarten"
+      ]
+    },
+    {
+      "heading": "Wat heb je nodig voor het installeren van IPTV op je Android box?",
+      "body": [
+        "Voordat je begint met de installatie, is het belangrijk om te controleren of je aan de minimale vereisten voldoet. Allereerst heb je een werkend IPTV abonnement nodig bij een betrouwbare aanbieder, zoals <strong>IPTV Kopen</strong>. Zonder abonnement kun je geen kanalen of content streamen. Daarnaast moet je Android box minimaal Android 7.0 of hoger draaien; de meeste moderne modellen voldoen hieraan. Check ook de opslagruimte: veel apps hebben 50 tot 200 MB nodig, maar voor een comfortabele ervaring is 1 GB vrije ruimte aan te raden.",
+        "Een stabiele internetverbinding is cruciaal voor een haperingsvrije IPTV-ervaring. Voor HD-streaming heb je minimaal 10 Mbps nodig, voor 4K minstens 25 Mbps. Gebruik bij voorkeur een bekabelde ethernetverbinding in plaats van wifi, omdat dit zorgt voor minder latency en stabielere snelheden. Als je toch wifi gebruikt, zorg dan dat je box dicht bij de router staat en op de 5 GHz-band werkt. Een trage of onstabiele verbinding leidt namelijk tot bufferen en slechte beeldkwaliteit.",
+        "Verder heb je een IPTV-app nodig. De bekendste en meest gebruikte apps zijn IPTV Smarters Pro, TiviMate, GSE Smart IPTV en Smart IPTV. Deze apps zijn gratis of tegen een kleine betaling verkrijgbaar en bieden alle functionaliteit om je abonnement te configureren. Sommige apps hebben extra functies zoals EPG (elektronische programmagids), opnamemogelijkheden en meerdere afspeellijsten. Wij raden TiviMate aan voor een overzichtelijke interface, maar IPTV Smarters werkt ook prima op de meeste Android boxes.",
+        "Tot slot heb je de inloggegevens van je abonnement nodig: meestal een M3U-link of Xtream Codes-parameters (gebruikersnaam, wachtwoord, server-URL). Bewaar deze gegevens veilig, want je hebt ze nodig tijdens de configuratie. Zorg ook dat je de handleiding van je Android box bij de hand hebt voor het instellen van de juiste weergave-instellingen, zoals resolutie en HDR. Met deze voorbereidingen ben je klaar om te beginnen."
+      ],
+      "list": [
+        "Werkend IPTV abonnement (bijv. van IPTV Kopen)",
+        "Android box met Android 7+ en voldoende opslag",
+        "Stabiele internetverbinding (minimaal 10 Mbps)",
+        "IPTV-app naar keuze (Smarters, TiviMate, etc.)",
+        "Inloggegevens van je abonnement (M3U-link of Xtream Codes)"
+      ]
+    },
+    {
+      "heading": "Zo installeer je een IPTV-app op je Android box (Smarters, TiviMate en meer)",
+      "body": [
+        "De installatie van een IPTV-app op je Android box verloopt eenvoudig via de Google Play Store. Schakel je box in, ga naar het startscherm en open de Play Store-app. Gebruik de zoekfunctie om de gewenste app te vinden, bijvoorbeeld 'TiviMate' of 'IPTV Smarters'. Klik op 'Installeren' en wacht tot de app gedownload en geïnstalleerd is. Dit duurt meestal slechts enkele seconden tot een minuut, afhankelijk van je internetsnelheid.",
+        "Sommige apps, zoals TiviMate, zijn niet altijd in de Play Store beschikbaar in bepaalde regio's. In dat geval kun je de app sideloaden via een APK-bestand. Download de APK van een betrouwbare bron naar een USB-stick of gebruik een bestandsbeheerder om de APK direct te downloaden. Zet daarna in de beveiligingsinstellingen van je box de optie 'Onbekende bronnen toestaan' aan. Open het APK-bestand en volg de installatie-instructies. Let op: sideloaden brengt risico's met zich mee; gebruik alleen officiële of geverifieerde bronnen.",
+        "Nadat de app is geïnstalleerd, vind je deze terug in het app-overzicht van je Android box. Start de app om de eerste configuratie te beginnen. De meeste IPTV-apps vragen bij de eerste keer om je inloggegevens of een M3U-link. Zorg dat je deze bij de hand hebt. Als je meerdere apps gebruikt, kun je ze eenvoudig naast elkaar installeren; elke app beheert zijn eigen configuratie. Sommige apps bieden een proefversie aan; voor de volledige functionaliteit (zoals meerdere afspeellijsten) is vaak een kleine betaling nodig.",
+        "Na installatie is het verstandig om de app te updaten naar de laatste versie. Dit kun je doen via de Play Store of door handmatig een nieuwere APK te installeren. Updates bevatten vaak bugfixes en ondersteuning voor nieuwe codecs, wat de stabiliteit en beeldkwaliteit ten goede komt. Als je bijvoorbeeld problemen ondervindt met de weergave van 4K-content, kan een update het verschil maken. Vergeet ook niet om de app-machtigingen te controleren: voor optimaal functioneren heeft de app toegang tot het netwerk en opslag nodig."
+      ],
+      "list": [
+        "Open de Play Store op je Android box en zoek de app",
+        "Klik op Installeren en wacht tot de app gereed is",
+        "Optioneel: sideload een APK als de app niet in de Play Store staat",
+        "Start de app en ga naar de instellingen voor de configuratie",
+        "Voer je IPTV-abonnementsgegevens in (M3U of Xtream Codes)"
+      ]
+    },
+    {
+      "heading": "Je IPTV-abonnement koppelen aan de app: configuratie uitgelegd",
+      "body": [
+        "Zodra de IPTV-app is geïnstalleerd, begint het echte werk: het koppelen van je abonnement. Bij IPTV Kopen ontvang je bij aankoop van een IPTV abonnement een e-mail met daarin de benodigde gegevens. Dit is meestal een M3U-link (een URL die de app direct kan laden) of Xtream Codes-parameters (server, gebruikersnaam, wachtwoord). Open de app en zoek naar de optie 'Afspeellijst toevoegen' of 'Login'. De exacte benaming verschilt per app, maar het principe is hetzelfde.",
+        "Voor M3U-links: plak de link in het daarvoor bestemde veld. De app laadt vervolgens alle kanalen en categorieën uit de lijst. Dit kan enkele seconden duren, afhankelijk van de grootte van de lijst. Bij Xtream Codes vul je de server-URL, gebruikersnaam en wachtwoord in. Deze methode is vaak sneller en biedt meer opties, zoals directe toegang tot VOD (video on demand). TiviMate en IPTV Smarters ondersteunen beide methoden. Zorg dat je de juiste gegevens gebruikt; een typfout in de URL of gebruikersnaam zorgt dat de verbinding mislukt.",
+        "Nadat de gegevens zijn ingevoerd, verschijnen de kanalen en programma's in de app. Je kunt nu door de zenders bladeren, de EPG (elektronische programmagids) raadplegen en favorieten instellen. Veel apps bieden de mogelijkheid om meerdere afspeellijsten toe te voegen, handig als je bijvoorbeeld een aparte lijst voor films en series hebt. Je kunt ook instellen dat de app automatisch de EPG van jouw abonnement ophaalt; dit is vaak een aparte XMLTV-link die je bij IPTV Kopen kunt opvragen.",
+        "Test de configuratie door een live kanaal te openen. Als het beeld vloeiend weergeeft, is de installatie geslaagd. Mocht het kanaal niet laden, controleer dan of je internetverbinding werkt en of de gegevens correct zijn. Soms moet je de app herstarten of de box opnieuw opstarten. Een andere tip: probeer een andere app om uit te sluiten dat het probleem app-specifiek is. Als het nog steeds niet werkt, neem dan contact op met de klantenservice van IPTV Kopen; zij helpen je via WhatsApp 24/7 verder."
+      ],
+      "list": [
+        "Open de IPTV-app en ga naar 'Voeg afspeellijst toe'",
+        "Kies voor M3U-link of Xtream Codes-invoer",
+        "Plak de link of vul de server, gebruikersnaam en wachtwoord in",
+        "Wacht tot de app de lijst laadt en controleer of kanalen verschijnen",
+        "Test een live kanaal om de verbinding te bevestigen"
+      ]
+    },
+    {
+      "heading": "Instellingen voor de beste beeldkwaliteit: van HD naar 4K op je Android box",
+      "body": [
+        "Nu je IPTV werkt, wil je uiteraard de beste beeldkwaliteit. De Android box geeft standaard de resolutie van je tv weer, maar je kunt deze aanpassen in de systeeminstellingen. Ga naar 'Weergave' of 'Scherm' en kies de hoogst mogelijke resolutie die je tv ondersteunt, bijvoorbeeld 1080p of 4K. Let op: niet alle Android boxes kunnen 4K aan; check de specificaties. Gebruik ook de instelling voor 'Automatische framerate' (24/25/30/50/60 Hz) om haperingen bij filmmateriaal te voorkomen.",
+        "In de IPTV-app zelf kun je vaak het type stream kiezen. Sommige apps bieden een instelling 'Standaard', 'Hoge kwaliteit' of 'Adaptieve bitrate'. Kies voor de hoogste kwaliteit als je internetverbinding stabiel genoeg is. TCP-buffering instellen op 1-3 seconden vermindert het risico op bufferen bij korte pieken. TiviMate heeft een uitgebreide 'Decoder' sectie waar je hardwareversnelling kunt aan- of uitzetten. Probeer beide opties: hardwareversnelling is vaak beter voor 4K, maar sommige oude boxes werken beter met software-decoding.",
+        "HDR (High Dynamic Range) kan een uitdaging zijn. Niet alle Android boxes ondersteunen HDR-output, en niet alle IPTV-abonnementen bieden HDR-kanalen. Als je box en tv HDR ondersteunen, zet dan in de systeeminstellingen 'HDR' op automatisch. In de app kun je HDR-specifieke opties vinden, zoals colorimetry. Houd er rekening mee dat HDR-streams meer bandbreedte vergen; als je internet te langzaam is, kun je beter terugschakelen naar SDR om haperingen te voorkomen.",
+        "Tot slot: update regelmatig zowel de firmware van de box als de IPTV-app. Fabrikanten brengen verbeteringen uit in de video-afhandeling en decoderingsprestaties. Een oude versie van Android of de app kan leiden tot suboptimale weergave, zoals groene schermen of verkeerde aspect ratio. Door alles up-to-date te houden, geniet je van de beste beeldkwaliteit die je abonnement en hardware te bieden hebben."
+      ],
+      "list": [
+        "Stel de Android box-resolutie in op het maximum van je tv (1080p/4K)",
+        "Schakel in de IPTV-app de hoogste videokwaliteit in",
+        "Pas de framerate aan (bijv. 50 Hz voor Nederlandse TV) voor vloeiend beeld",
+        "Experimenteer met hardware/software-decoding als er haperingen zijn",
+        "Controleer of HDR correct wordt weergegeven op je tv"
+      ]
+    },
+    {
+      "heading": "Problemen met IPTV op Android box? Dit zijn de oplossingen",
+      "body": [
+        "Het kan gebeuren dat je tegen problemen aanloopt bij het installeren of gebruiken van IPTV. Het meest voorkomende probleem is 'geen beeld' of 'zwart scherm' bij een kanaal. Dit heeft vaak te maken met de codec of de resolutie. Probeer de decoderingsinstellingen in de app te wijzigen van hardware naar software of andersom. Ook kan het helpen om de app te sluiten en opnieuw te openen. Als dat niet werkt, verwijder dan de app en installeer hem opnieuw.",
+        "Bufferen of haperingen zijn vaak het gevolg van een trage internetverbinding of overbelasting van de Apparaat. Controleer eerst je internetsnelheid via een speedtest op de box. Als de snelheid onder de vereiste drempel ligt, schakel dan over op een ethernetkabel of verplaats de box dichter bij de router. Een andere oorzaak kan zijn dat je abonnement op dat moment overbelast is; bij IPTV Kopen wordt gebruik gemaakt van dedicated servers, maar tijdelijke pieken zijn mogelijk. Wacht enkele minuten en probeer opnieuw.",
+        "Een derde probleem is dat de IPTV-app vastloopt of crasht. Dit wijst meestal op een gebrek aan geheugen of een conflict met andere apps. Sluit onnodige apps af die op de achtergrond draaien. Je kunt ook de cache van de app wissen via de instellingen van de box. Ga naar 'Apps' -&gt; 'IPTV-app' -&gt; 'Opslag' -&gt; 'Cache wissen'. Als het probleem aanhoudt, controleer dan of de app volledig is geüpdatet. Oude versies kunnen bugs bevatten die in nieuwere releases zijn opgelost.",
+        "Soms laadt de kanaallijst niet, of worden er geen kanalen getoond. Dit komt vaak door een verouderde of ongeldige M3U-link. Vraag bij je aanbieder een nieuwe link aan als de oude verlopen is. Bij IPTV Kopen is de link 14 dagen geldig; daarna kun je een nieuwe opvragen via de klantenservice. Ook kan het helpen om de app te dwingen de lijst te verversen: in TiviMate doe je dit via de menu-optie 'Vernieuw afspeellijst'. Als niets werkt, reset dan de app naar de fabrieksinstellingen en voer de gegevens opnieuw in."
+      ],
+      "list": [
+        "Wissel van hardware- naar software-decoding bij zwart beeld",
+        "Test internetverbinding en schakel over op ethernet bij bufferen",
+        "Wis cache van de IPTV-app bij crashes of vastlopers",
+        "Vraag een nieuwe M3U-link aan als de lijst niet laadt",
+        "Reset de app naar fabrieksinstellingen als alle opties falen"
+      ]
+    },
+    {
+      "heading": "10 tips om het maximale uit je IPTV en Android box te halen",
+      "body": [
+        "Nu alles werkt, zijn er een aantal tips om je kijkervaring naar een hoger niveau te tillen. Ten eerste: gebruik een externe muis of toetsenbord om de bediening van de IPTV-app te vergemakkelijken. De standaard afstandsbediening van de box werkt wel, maar voor het typen van URLs of wachtwoorden is een toetsenbord veel handiger. Draadloze mini-toetsenborden met touchpad zijn betaalbaar en verkrijgbaar bij de meeste elektronicawinkels.",
+        "Ten tweede: maak gebruik van de EPG (elektronische programmagids). De meeste IPTV-abonnementen, waaronder die van IPTV Kopen, bieden een uitgebreide EPG met programmagegevens voor de komende dagen. Stel in de app in dat de EPG automatisch wordt bijgewerkt. Zo kun je eenvoudig zien wat er nu en later op de zenders wordt uitgezonden, en kun je programma's plannen. TiviMate heeft een bijzonder overzichtelijke EPG-weergave.",
+        "Ten derde: configureer de favorietenlijst. Met honderden kanalen is het lastig om snel je favoriete zenders te vinden. Maak een lijst met favorieten in de app. Dit kan door het indrukken van een ster-icoontje of via de contextuele menu's. Je kunt vaak meerdere favorietenlijsten maken, bijvoorbeeld voor sport, films en nieuws. Dit bespaart veel tijd en maakt het surfen door de zenders een stuk prettiger.",
+        "Verder: zorg voor goede ventilatie van je Android box. Oververhitting kan prestatieproblemen veroorzaken. Plaats de box niet in een afgesloten kastje en zorg dat de ventilatieopeningen vrij zijn. Als de box warm aanvoelt, overweeg dan een kleine USB-ventilator. Ook regelmatig stof verwijderen helpt. Tot slot: overweeg een VPN te gebruiken voor extra privacy, al is dit niet verplicht bij legitieme IPTV-diensten. Sommige internetproviders throttlen streamingverkeer; een VPN kan dit omzeilen."
+      ],
+      "list": [
+        "Gebruik een draadloze muis of toetsenbord voor eenvoudigere bediening",
+        "Activeer de EPG en stel automatische updates in",
+        "Maak favorietenlijsten voor snelle toegang tot vaak bekeken zenders",
+        "Zorg voor goede ventilatie van de Android box om oververhitting te voorkomen",
+        "Overweeg een VPN om privacy te verbeteren en throttling tegen te gaan"
+      ]
+    },
+    {
+      "heading": "Waarom een legitiem IPTV-abonnement essentieel is voor jouw Android box",
+      "body": [
+        "Het aanbod van IPTV-abonnementen is groot en niet alle aanbieders zijn even betrouwbaar. Illegale diensten kunnen goedkoop lijken, maar brengen risico's met zich mee: geen garantie op stabiliteit, plotselinge uitval, slechte klantenservice en mogelijk juridische problemen. Door te kiezen voor een legitieme aanbieder zoals IPTV Kopen weet je zeker dat je een kwalitatief hoogstaand product krijgt. Je betaalt een eerlijke prijs voor een dienst die continu wordt onderhouden en geüpdatet.",
+        "Een legitiem IPTV abonnement heeft ook praktische voordelen. Zo beschikt IPTV Kopen over dedicated servers die zorgen voor minimale buffering en hoge uptime. Bovendien is er 24/7 WhatsApp-support beschikbaar, mocht je ergens tegenaan lopen. Bij illegale diensten moet je vaak wachten op antwoord via fora of verdwijnen aanbieders van de radar. Ook de beeldkwaliteit is gegarandeerd: met een officieel abonnement krijg je HD en 4K zoals beloofd, zonder verborgen beperkingen.",
+        "Daarnaast is er het aspect van veiligheid. Illegale IPTV-diensten verwerken vaak persoonlijke gegevens van hun gebruikers zonder adequate beveiliging. Het risico op datalekken of malware is reëel. Bij een legitieme dienst word je geregistreerd en worden gegevens beschermd volgens de AVG. Ook wordt er geen onrechtmatige content aangeboden die inbreuk maakt op auteursrechten. Je kunt dus met een gerust hart je IPTV abonnement gebruiken, wetende dat je binnen de wet handelt.",
+        "Tot slot biedt een betrouwbare dienst transparantie: je weet wat je krijgt, voor welke prijs, en er zijn duidelijke voorwaarden. Geen rare verrassingen achteraf. Bij IPTV Kopen kun je kiezen uit verschillende abonnementsvormen en is directe activatie mogelijk. Wil je overstappen van een illegale dienst naar een legaal alternatief, dan is het proces eenvoudig: schaf een abonnement aan, ontvang de inloggegevens per e-mail, en configureer de app. Zo geniet je zonder zorgen van de beste IPTV-ervaring op je Android box."
+      ],
+      "list": [
+        "Legitieme diensten bieden stabiliteit, lange uptime en 24/7 support",
+        "Betere beeldkwaliteit en gegarandeerde HD/4K",
+        "Veilige verwerking van persoonsgegevens en AVG-proof",
+        "Geen juridische risico's of auteursrechtenkwesties",
+        "Transparante prijzen en directe activatie zonder gedoe"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kan ik elke Android box gebruiken voor IPTV?",
+      "a": "In principe wel, mits de box minimaal Android 7.0 draait en voldoende rekenkracht heeft voor video decodering. Goedkope stickmodellen kunnen moeite hebben met 4K, maar voor HD-volstaan de meeste. Kies bij voorkeur een model met 2 GB RAM of meer voor een vloeiende ervaring. Ook de ondersteuning voor codecs zoals H.265 is belangrijk voor moderne streams."
+    },
+    {
+      "q": "Hoe activeer ik mijn IPTV-abonnement op de Android box?",
+      "a": "Na aankoop van een abonnement bij IPTV Kopen ontvang je per e-mail een M3U-link of Xtream Codes-parameters. Open de IPTV-app van je keuze, ga naar de instellingen om een nieuwe afspeellijst toe te voegen, en voer de gegevens in. De app zal dan alle kanalen en content laden. Als er een wachttermijn is voor activatie, staat deze in de e-mail vermeld; meestal is activatie direct na betaling."
+    },
+    {
+      "q": "Wat moet ik doen als de IPTV-app niet werkt op mijn Android box?",
+      "a": "Controleer eerst of je internetverbinding actief is en of de app up-to-date is. Probeer de app te verwijderen en opnieuw te installeren. Als het probleem blijft bestaan, wis dan de cache en data van de app via de instellingen van de box. Soms helpt het om een andere IPTV-app te proberen, zoals TiviMate in plaats van IPTV Smarters. Neem bij aanhoudende problemen contact op met de klantenservice van IPTV Kopen."
+    },
+    {
+      "q": "Is een VPN nodig voor het gebruik van IPTV op een Android box?",
+      "a": "Niet per se. Als je een legitiem IPTV-abonnement gebruikt zoals van IPTV Kopen, is het streamen volledig legaal en mag het vrij worden bekeken. Een VPN kan echter nuttig zijn om je privacy te beschermen of als je internetprovider streamingverkeer vertraagt. Sommige gebruikers gebruiken een VPN om toegang te krijgen tot content die in hun regio geblokkeerd is, maar dat is dan niet altijd toegestaan volgens de algemene voorwaarden."
+    },
+    {
+      "q": "Hoe kan ik de EPG (elektronische programmagids) instellen op mijn Android box?",
+      "a": "De meeste IPTV-apps geven de EPG automatisch weer zodra je de afspeellijst laadt, mits het abonnement EPG-gegevens bevat. Bij IPTV Kopen krijg je een EPG-link die je in de app kunt toevoegen. In IPTV Smarters of TiviMate ga je naar de instellingen, zoek de optie 'EPG instellingen' en voeg de XMLTV-URL toe. De app zal dan de programmagegevens laden en je kunt ze per kanaal bekijken."
+    },
+    {
+      "q": "Werken alle IPTV-abonnementen met elke Android box?",
+      "a": "Ja, de meeste IPTV-abonnementen werken met elke IPTV-app die M3U of Xtream Codes ondersteunt, en die apps werken op elke Android box. Het type box heeft geen invloed op de werking van het abonnement zelf, alleen de hardware bepaalt of bepaalde resoluties of codecs goed worden weergegeven. Zolang de box de juiste codecs ondersteunt (H.264, H.265) en genoeg RAM heeft, kun je het abonnement zonder problemen gebruiken."
+    }
+  ]
+}

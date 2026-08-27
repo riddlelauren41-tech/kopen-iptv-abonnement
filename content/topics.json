@@ -88,7 +88,8 @@
     "keyword": "IPTV Android box installeren",
     "angle": "praktische, diepgaande gids voor Nederlandse IPTV-gebruikers",
     "category": "install",
-    "status": "pending"
+    "status": "done",
+    "slug": "iptv-android-box-installeren"
   },
   {
     "keyword": "IPTV vs kabel tv",
