@@ -102,7 +102,8 @@
     "keyword": "IPTV Formule 1 live kijken",
     "angle": "praktische, diepgaande gids voor Nederlandse IPTV-gebruikers",
     "category": "sport",
-    "status": "pending"
+    "status": "done",
+    "slug": "iptv-formule-1-live-kijken"
   },
   {
     "keyword": "IPTV meerdere gebruikers tegelijk",
