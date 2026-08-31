@@ -111,5 +111,12 @@
     "category": "device",
     "status": "done",
     "slug": "iptv-meerdere-gebruikers-tegelijk"
+  },
+  {
+    "keyword": "IPTV instellen op Apple TV",
+    "angle": "Stap-voor-stap handleiding voor het configureren van IPTV op Apple TV, inclusief aanbevolen apps en netwerkinstellingen.",
+    "category": "install",
+    "status": "done",
+    "slug": "iptv-instellen-op-apple-tv"
   }
 ]
