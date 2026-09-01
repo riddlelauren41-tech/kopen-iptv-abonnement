@@ -118,5 +118,12 @@
     "category": "install",
     "status": "done",
     "slug": "iptv-instellen-op-apple-tv"
+  },
+  {
+    "keyword": "IPTV en Chromecast instellen",
+    "angle": "Stap-voor-stap handleiding om IPTV op Chromecast in te stellen met Android en iPhone",
+    "category": "install",
+    "status": "done",
+    "slug": "iptv-en-chromecast-instellen"
   }
 ]
