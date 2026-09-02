@@ -1,0 +1,173 @@
+{
+  "slug": "iptv-lg-smart-tv",
+  "title": "IPTV op LG Smart TV: Volledige Stapsgewijze Installatiehandleiding (2025)",
+  "date": "2026-09-02",
+  "author": "IPTV Kopen Team",
+  "readTime": 9,
+  "excerpt": "Installeer IPTV op je LG Smart TV met WebOS. Stapsgewijze handleiding voor apps, instellingen en optimalisatie voor een vlekkeloze kijkervaring.",
+  "cover": "/blog/generated/iptv-lg-smart-tv.jpg",
+  "coverAlt": "LG Smart TV met IPTV-app en zenderoverzicht op het scherm in een woonkamer",
+  "category": "device",
+  "categoryLabel": "Apparaten",
+  "sections": [
+    {
+      "heading": "Waarom een aparte IPTV-app essentieel is op LG Smart TV",
+      "body": [
+        "LG Smart TV's draaien op het eigen WebOS-besturingssysteem, dat geen native ondersteuning biedt voor <a href=\"https://nl.wikipedia.org/wiki/IPTV\" target=\"_blank\" rel=\"noopener noreferrer\">IPTV</a> via M3U-links of Xtream-Codes API's. In tegenstelling tot Android TV kun je niet zomaar een APK-bestand sideloaden. Dit betekent dat je een geschikte IPTV-speler moet installeren uit de LG Content Store om je IPTV-abonnement te kunnen gebruiken. Zonder deze app blijft het onmogelijk om live tv, films of series van je aanbieder te bekijken.",
+        "De keuze van de app bepaalt in grote mate de stabiliteit en gebruiksvriendelijkheid. Populaire opties zoals Smart IPTV, SS IPTV, en IPTV Smarters Pro (via alternatieve methoden) zijn beschikbaar, maar elke app heeft zijn eigen installatieprocedure en functionaliteiten. Het is cruciaal om een app te kiezen die compatibel is met de nieuwste WebOS-versies (6.0 en hoger) en die geen extra advertenties toont die de gebruikerservaring verstoren.",
+        "Een misverstand is dat je met een IPTV-abonnement direct op je LG TV kunt inloggen zonder tussenkomst van een app. De waarheid is dat het abonnement (bijvoorbeeld van <strong>IPTV Kopen</strong>) een URL of playlist levert, maar dat de TV deze niet zelfstandig kan interpreteren. De app fungeert als de brug tussen het abonnementsbestand en je televisiescherm, waarbij hij het signaal decodeert naar HD- of 4K-beelden.",
+        "Het gevolg van het overslaan van deze stap is dat je TV aangeeft 'ongeldig formaat' of 'geen signaal' te zien. Door vooraf de juiste app te installeren en te configureren, voorkom je uren frustratie en kun je direct genieten van een vloeiend kabelvrij alternatief. Meer dan 80% van de problemen bij LG-gebruikers lost zich op door een correct geïnstalleerde en geüpdatete IPTV-speler."
+      ],
+      "list": []
+    },
+    {
+      "heading": "Stap 1: IPTV-app downloaden uit de LG Content Store",
+      "body": [
+        "Schakel je LG Smart TV in en druk op de 'Home'-knop van de afstandsbediening om het hoofdmenu te openen. Navigeer naar het pictogram van de LG Content Store (het winkelmandje). Gebruik de zoekfunctie (vergrootglas rechtsboven) en typ de naam van een compatibele IPTV-app. De meest aanbevolen keuze is 'Smart IPTV' of 'SS IPTV', omdat deze officieel in de store staan en geen onnodige toestemmingen vragen.",
+        "Let hierbij goed op de exacte naam: 'Smart IPTV' wordt soms verward met 'IPTV Smarters' die niet altijd in de LG Store staat voor WebOS. Controleer ook of de app 'TV' of 'Pro' in de titel heeft, want dit duidt vaak op de betaalde versie zonder advertenties. Downloaden gebeurt door op 'Installeren' te klikken; de app wordt automatisch toegevoegd aan je app-overzicht en het startscherm.",
+        "Een veelgemaakte fout is het kiezen van een app met een laag aantal sterren of recente negatieve recensies over bufferproblemen. Kies altijd een app met minimaal 4 sterren en recente updates – dit garandeert dat hij werkt met de nieuwste WebOS 23- en 24-updates. Als je IPTV-abonnement 4K-zenders bevat (vaak bij IPTV Kopen), kies dan een app die 4K-resolutie ondersteunt.",
+        "Na de installatie hoef je de app nog niet te openen; eerst moet je de unieke identificatiecode van je TV achterhalen, die nodig is voor de activatie van de app. Deze code vind je pas nadat je de app één keer start. Houd dus je telefoon of laptop bij de hand, want het koppelen gebeurt via een externe browser. In de volgende stap leg ik uit hoe je deze code vindt en gebruikt."
+      ],
+      "list": [
+        "Open LG Content Store via de Home-knop",
+        "Zoek naar 'Smart IPTV' of 'SS IPTV'",
+        "Controleer beoordelingen en update-datum",
+        "Klik op Installeren en wacht tot de app gereed is"
+      ]
+    },
+    {
+      "heading": "Stap 2: App activeren en apparaat koppelen via een unieke code",
+      "body": [
+        "Start de zojuist geïnstalleerde IPTV-app op je LG Smart TV. Bij de eerste keer opstarten verschijnt een welkomstscherm met daarin een unieke MAC-code of activatiecode (bijvoorbeeld '00:1A:2B:3C:4D:5E' of een 7-cijferige code). Dit is de digitale vingerafdruk van je TV, waarmee de app-server weet welk apparaat de playlist mag ontvangen. Noteer deze code nauwkeurig – een enkele fout betekent dat de activatie mislukt.",
+        "Ga nu naar een computer, tablet of smartphone en open een webbrowser. Surf naar het activatie-adres dat de app aangeeft, doorgaans bijvoorbeeld 'http://siptv.eu/activate' voor Smart IPTV of een soortgelijke URL voor SS IPTV. Voer de genoteerde MAC-code of activatiecode in het daarvoor bestemde veld. Druk op 'Activeren' of 'Submit'. De server koppelt nu jouw abonnementsgegevens aan het specifieke apparaat.",
+        "Sommige IPTV-apps vereisen een eenmalige betaling voor activatie (rond de 5-10 euro). Dit is een standaardlicentiekost voor de app-ontwikkelaar, niet voor je IPTV-abonnement. IPTV Kopen werkt onafhankelijk van deze app-kosten; je betaalt alleen voor de zenders en content. Na betaling (indien van toepassing) wordt de TV onmiddellijk herkend en kun je doorgaan naar de volgende stap.",
+        "Een belangrijk detail: gebruik altijd de eigen activatiepagina van de app, niet een willekeurige site. Oplichters bieden valse activatie aan, maar dit leidt vaak tot een geblokkeerde app of diefstal van je MAC-adres. Houd het veilig en volg alleen de instructies die de app zelf op je scherm toont. Na activatie kun je de app afsluiten en opnieuw openen – het zou nu 'Gekoppeld' of 'Actief' moeten tonen."
+      ],
+      "list": [
+        "Start de app en noteer de MAC- of activatiecode",
+        "Ga naar de activatie-URL (bijv. siptv.eu/activate)",
+        "Voer de code in en klik op Activeren",
+        "Betaal eventuele licentiekosten (eenmalig)",
+        "Herstart de app om de koppeling te bevestigen"
+      ]
+    },
+    {
+      "heading": "Stap 3: M3U-link of Xtream-Codes inladen in de IPTV-app",
+      "body": [
+        "Nu de app is geactiveerd, is het tijd om je IPTV-abonnement te laden. Ga naar de instellingen van de app – meestal een tandwielicoon of een menu genaamd 'Manage Playlist'. Je IPTV-abonnement (bijvoorbeeld dat van IPTV Kopen) wordt geleverd met een M3U-URL of Xtream-Codes API (server, gebruikersnaam en wachtwoord). Houd deze gegevens bij de hand; je vindt ze in de welkomstmail van je abonnementsaankoop bij 'Mijn account' of via de klantenservice.",
+        "Voor Smart IPTV en SS IPTV gebruik je vooral de M3U-methode: je kopieert de volledige URL (beginnend met 'http://' en eindigend op '.m3u' of '?type=m3u_plus') en plakt deze in het veld 'Playlist URL'. Druk op 'Uploaden' of 'OK'. De app begint nu met het downloaden en verwerken van de playlist, wat 10 tot 30 seconden kan duren, afhankelijk van het aantal kanalen (vaak 10.000+ bij premium abonnementen).",
+        "Sommige apps ondersteunen ook Xtream-Codes, wat gebruiksvriendelijker is omdat je alleen de servernaam, gebruikersnaam en wachtwoord hoeft in te vullen. Kijk in de app of er een optie is 'Login via Xtream-Codes'. Als je twijfelt, kies dan voor de M3U-methode – deze werkt universeel. Een foutmelding 'Ongeldige URL' duidt meestal op een typfout of een verlopen link. Controleer of de URL geen spaties bevat en of je abonnement nog actief is.",
+        "Na het inladen verschijnt er een bericht zoals 'Playlist succesvol geladen' en zie je de zenderlijst verschijnen in de app. Als je niets ziet, ga dan terug naar de hoofdmap en selecteer 'Kanallijst' of 'TV'. De app sorteert de kanalen vaak automatisch op volgorde zoals jij ze hebt ontvangen. Wil je de volgorde aanpassen? Dat doen we in een latere stap. Voor nu: succes – je hebt de kerninstallatie voltooid."
+      ],
+      "list": []
+    },
+    {
+      "heading": "Stap 4: EPG (Elektronische Programmagids) instellen voor live tv",
+      "body": [
+        "Een van de grootste voordelen van IPTV boven traditionele kabel is de aanpasbare EPG, die je laat zien wat er nu en later op elk kanaal wordt uitgezonden. Zonder EPG zie je alleen kanaalnummers en namen, maar geen programma-informatie. De meeste IPTV-abonnementen, waaronder die van IPTV Kopen, leveren een EPG-URL (eindigend op '.xml' of '?type=epg') naast de M3U-link. Dit is een aparte feed die je moet toevoegen in de app-instellingen.",
+        "Ga naar het EPG-gedeelte van je app (vaak 'EPG Settings', 'Guide', of 'Program Info'). Voer de EPG-URL in die je van je abonnement hebt gekregen. Klik op 'Download' of 'Sync'. De app haalt nu de programmagegevens op voor de komende 7 tot 14 dagen. Dit kan even duren, afhankelijk van je internetverbinding – bij een trage verbinding kan het 2-3 minuten duren. Geduld is hier een schone zaak.",
+        "Problemen met EPG: als de informatie niet verschijnt of verspringt naar verkeerde kanalen, komt dat vaak doordat de kanaal-ID's in de EPG niet exact overeenkomen met de ID's in je M3U-playlist. Sommige apps, zoals TiviMate (helaas niet officieel beschikbaar op WebOS, maar wel via alternatieve methoden), bieden een 'EPG-remapping' functie. Op LG's standard apps zul je dit handmatig moeten corrigeren door de EPG-bron opnieuw te laden of een andere bron te proberen van je provider.",
+        "Controleer of de EPG automatisch wordt ververst. De meeste apps verversen eenmaal per 24 uur, maar je kunt vaak handmatig verversen via 'Update EPG nu'. Zet ook de tijdzone correct op 'Europe/Amsterdam' (of 'Europe/Brussels' voor België), anders zie je programma's op verkeerde tijden. Een correct ingestelde EPG maakt het verschil tussen een chaotische zenderlijst en een professionele, kabel-achtige kijkervaring."
+      ],
+      "list": [
+        "Ga naar EPG-instellingen in de IPTV-app",
+        "Voer de EPG-URL in (bijv. https://yourprovider.com/epg.xml)",
+        "Start de EPG-download en wacht tot voltooid",
+        "Controleer of de tijden kloppen (tijdzone Nederland/België)",
+        "Ververs de EPG dagelijks of handmatig bij fouten"
+      ]
+    },
+    {
+      "heading": "Stap 5: Zenderlijst sorteren, favorieten aanmaken en volgorde aanpassen",
+      "body": [
+        "Na het laden van de playlist heb je vaak te maken met honderden tot duizenden kanalen, door elkaar gegroepeerd per land of genre. Om snel je favoriete zenders te vinden, is het aanmaken van een favorietenlijst essentieel. Dit werkt in de meeste IPTV-apps op LG door op de 'OK' of 'Enter'-knop te drukken terwijl een kanaal is geselecteerd, en daarna 'Toevoegen aan favorieten' te kiezen. Je kunt aparte lijsten maken voor bijv. 'Nederland', 'Film', 'Sport' of '4K-zenders'.",
+        "De app slaat deze lijsten lokaal op, dus ze blijven bewaard, zelfs als je de TV uitschakelt. Het sorteren van de volledige lijst kan via de optie 'Sorteer op naam', 'Sorteer op nummer' of 'Sorteer op categorie'. Sommige apps bieden een drag-and-drop functie. Als je net als ik een hekel hebt aan rommel, kun je ook kanalen verbergen die je nooit kijkt (bijvoorbeeld buitenlandse kinderzenders) via 'Hide channel' in het contextmenu.",
+        "Een geavanceerde tip: maak een aparte lijst aan voor 'Favorieten Nederland' met NPO 1, NPO 2, RTL 4, SBS 6, Veronica, Net5, en de regionale omroepen. Voor België zet je VRT 1, VRT Canvas, VTM, en Play4 in een aparte lijst. Op die manier hoef je niet door 500 buitenlandse zenders te scrollen voordat je het nieuws vindt. Dit is ook handig voor kinderen: je kunt een 'Kids'-lijst maken met alleen Disney Channel, Nickelodeon en Cartoon Network.",
+        "Bedenk dat de volgorde van de playlist wordt bepaald door je provider. Als je abonnement van IPTV Kopen bijvoorbeeld een bepaalde volgorde hanteert, kun je die niet structureel wijzigen voor de hele lijst (alleen in je eigen favorieten). Mocht je merken dat kanalen onlogisch zijn genummerd, neem dan contact op met de klantenservice via WhatsApp – zij kunnen soms een aangepaste playlist serveren. Investeer tien minuten in het inrichten van je lijst, het bespaart je dagelijks tijd."
+      ],
+      "list": [
+        "Selecteer een kanaal en voeg toe aan favorieten (via OK-knop)",
+        "Maak aparte favorietenlijsten: Nederland, België, Sport, 4K, Kids",
+        "Gebruik 'Verberg kanaal' voor ongewenste zenders",
+        "Sorteer favorieten handmatig op volgorde (bijv. NPO1, NPO2, RTL4)",
+        "Bewaar de instellingen – deze blijven na herstart bewaard"
+      ]
+    },
+    {
+      "heading": "Stap 6: Stream optimaliseren – buffering oplossen en beeldkwaliteit aanpassen",
+      "body": [
+        "Zelfs met een perfect geïnstalleerd IPTV-abonnement kun je buffering tegenkomen. De meest voorkomende oorzaken op LG Smart TV zijn: een bekabelde verbinding die niet is ingesteld op een statisch IP-adres, een Wi-Fi-netwerk dat overbelast is door andere apparaten, of de TV die te weinig cache-ruimte heeft. Een eerste stap is om te controleren of je LG TV via Ethernet is aangesloten (CAT 6-kabel aanbevolen) in plaats van Wi-Fi. Dit vermindert latency en packet loss aanzienlijk.",
+        "In de IPTV-app kun je vaak de buffer-grootte aanpassen. Ga naar 'Instellingen' &gt; 'Afspelen' &gt; 'Buffer-grootte' en kies 'Medium' (3 seconden) of 'Large' (5-6 seconden). Bij snelle glasvezel mag je op 'Small' (1 seconde) staan voor minimale vertraging, maar bij DSL-koper is 'Medium' veiliger. Ook kun je de decoderingsmethode wijzigen: kies 'Hardware Decoding' (HW+) voor de beste 4K-weergave, of 'Software Decoding' (SW) bij problemen met bepaalde codecs.",
+        "Beeldkwaliteit stel je in via het menu van de app: sommige apps bieden de optie 'Videoresolutie forceren' op 1080p of 4K. Zet dit niet standaard op 4K als je tv een 1080p-model is – dat forceert downscaling en verbruikt onnodig data. Je IPTV-abonnement van IPTV Kopen levert de streams in de originele kwaliteit; laat de app indien mogelijk op 'Auto' staan, zodat hij schakelt tussen SD, HD en 4K op basis van je bandbreedte.",
+        "Een vergeten factor is de energiebesparingsmodus van de TV. Ga naar de algemene TV-instellingen: 'Algemeen' &gt; 'Energiebesparing' &gt; zet 'Automatische helderheid' uit en 'Energiebesparing' op 'Uit'. Deze functies dimmen de achtergrondverlichting bij donkere scènes, wat de indruk van lage bitrate kan geven. Zet ook 'Trumotion' of 'Motion Plus' op minimaal – dit voorkomt het 'soap opera effect' bij films. Na deze optimalisaties geniet je van haarscherp beeld zonder haperingen."
+      ],
+      "list": []
+    },
+    {
+      "heading": "Stap 7: Alternatieve IPTV-apps installeren (IPTV Smarters, GSE, TiviMate op LG)",
+      "body": [
+        "Hoewel Smart IPTV en SS IPTV de standaardkeuzes zijn, bieden alternatieve apps vaak meer functionaliteit. IPTV Smarters Pro staat bekend om zijn gebruiksvriendelijke interface met ingebouwde EPG en opnamefunctie. Helaas is deze niet direct beschikbaar in de LG Content Store voor WebOS, tenzij je een Developer Mode-apparaat hebt of gebruikmaakt van een sideload-methode via USB – dit raad ik alleen aan voor gevorderde gebruikers, omdat het de garantie kan beïnvloeden.",
+        "GSE Smart IPTV is een populaire keuze voor iPhone- en Android-gebruikers, maar heeft ook een WebOS-versie in de LG Store. Deze app ondersteunt meerdere playlisten tegelijk en heeft een geavanceerde audio-ondersteuning (AC3, DTS). Het nadeel is dat de interface wat drukker is en minder geoptimaliseerd voor afstandsbedieningen. Installatie gaat hetzelfde: download vanuit de LG Content Store, activeer met MAC-code en laad de M3U-URL. GSE werkt vaak beter met Xtream-Codes dan Smart IPTV.",
+        "TiviMate is de absolute favoriet onder IPTV-gebruikers vanwege de prachtige interface en EPG, maar is native alleen voor Android TV. Voor LG WebOS zijn er geen officiële versies. Sommige gebruikers installeren een Android-emulator op de LG TV, maar dit leidt tot prestatieverlies en een trage ervaring. Een beter alternatief is om een aparte Android TV-box (bijv. Xiaomi Mi Box of Nvidia Shield) aan te sluiten op je LG-scherm en TiviMate daarop te draaien. Dit is een investering, maar biedt de beste IPTV-ervaring.",
+        "Welke app je ook kiest, zorg dat hij compatibel is met je IPTV-abonnement. IPTV Kopen biedt ondersteuning voor alle gangbare apps; je kunt bij aankoop aangeven welke app je gebruikt, zodat de playlist-formaat correct is. Wil je wisselen van app, dan kun je simpelweg de nieuwe app installeren, activeren en dezelfde M3U-link opnieuw laden. Je favorietenlijsten gaan echter verloren – exporteer ze indien mogelijk als back-up via de app-functionaliteit."
+      ],
+      "list": [
+        "Start de LG Content Store en zoek naar 'GSE Smart IPTV' of 'IPTV Smarters'",
+        "Download en installeer de gewenste app",
+        "Activeer met de unieke code (zie stap 2)",
+        "Laad dezelfde M3U-URL of Xtream-Codes van je abonnement",
+        "Importeer je back-up favorietenlijst (indien beschikbaar)"
+      ]
+    },
+    {
+      "heading": "Stap 8: Veelvoorkomende problemen oplossen – geen beeld, zwart scherm, foutmeldingen",
+      "body": [
+        "Als je na het volgen van alle stappen geen beeld krijgt, is de eerste check je abonnementsstatus. Log in op je account bij IPTV Kopen en controleer of het abonnement nog actief is en of het IP-adres van je LG TV niet is gewijzigd. Sommige providers koppelen het abonnement aan een IP-adres; wijzigingen door een router-herstel of VPN-gebruik kunnen leiden tot blokkade. Neem dan contact op met de WhatsApp-support voor een reset van de streamsessie.",
+        "Een zwart scherm bij het starten van een kanaal duidt vaak op een codec-probleem. LG TV's ondersteunen de meeste codecs, maar oudere modellen (2016-2018) kunnen problemen hebben met HEVC/x265 bij 4K-streams. Oplossing: schakel in de app over naar de backup-stream of kies de SD-variant van hetzelfde kanaal (vaak genummerd als kanaal 1 SD naast kanaal 1 HD). Als de app een decoderingsoptie heeft, zet deze dan op 'Software' in plaats van 'Hardware'.",
+        "Foutmelding 'Playlist kan niet worden geladen' betekent meestal een defecte URL. Ga naar de webmail of het klantenportaal van je IPTV-abonnement, kopieer opnieuw de M3U-link en plak deze in de app zonder extra spaties. Soms voegt de app een extra 's' toe of verwijdert hij een slash; typ de URL handmatig over als kopiëren en plakken problemen geeft. Herstart de TV en de app na het corrigeren.",
+        "Een laatste redmiddel bij aanhoudende problemen is een fabrieksreset van de IPTV-app. Ga naar 'Instellingen' &gt; 'Apps' &gt; 'Smart IPTV' &gt; 'Gegevens wissen' of 'Cache wissen'. Hiermee verwijder je de playlist en EPG, maar niet de activatie. Laad daarna opnieuw de playlist. Als dit niet helpt, verwijder dan de app volledig en installeer hem opnieuw uit de LG Content Store. Dit kost 5 minuten, maar lost 90% van de hardnekkige fouten op. Houd de stappen bij de hand – je bent nu een expert."
+      ],
+      "list": [
+        "Controleer abonnementsstatus en IP-adres bij provider",
+        "Schakel over naar software-decoding bij zwart scherm",
+        "Kopieer de M3U-URL opnieuw en controleer op typfouten",
+        "Wis cache van de IPTV-app via TV-instellingen",
+        "Verwijder en herinstalleer de app als laatste stap"
+      ]
+    },
+    {
+      "heading": "Meer weten?",
+      "body": [
+        "Bekijk ons <a href=\"/iptv-abonnement\">IPTV abonnement</a> voor de actuele pakketten en kies de formule die bij je past.",
+        "Lees ook ons artikel over <a href=\"/nieuws/iptv-meerdere-gebruikers-tegelijk\">IPTV voor meerdere gebruikers tegelijk: complete gids voor NL en BE</a>."
+      ],
+      "list": []
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kan ik IPTV op elke LG Smart TV installeren, ongeacht het bouwjaar?",
+      "a": "Ja, in principe op alle LG Smart TV's met WebOS 3.0 of nieuwer (vanaf 2016). De installatie verloopt via de LG Content Store, die op alle modellen aanwezig is. Oudere tv's met WebOS 2.0 of lager (2014-2015) hebben mogelijk geen ondersteuning voor de nieuwste IPTV-apps; in dat geval kun je een externe streamingstick zoals een Chromecast of Amazon Fire Stick gebruiken om IPTV te kijken."
+    },
+    {
+      "q": "Is het normaal dat de IPTV-app op LG TV vraagt om een eenmalige betaling voor activatie?",
+      "a": "Ja, dit is een standaard licentiekost voor de app-ontwikkelaar. Smart IPTV vraagt bijvoorbeeld 5,99 euro voor een permanente activatie. Deze betaling is volledig los van je IPTV-abonnement; je betaalt de app eenmalig, niet maandelijks. Er zijn gratis alternatieven zoals SS IPTV (beperkt tot 1 playlist) of IPTV Smarters (via sideload), maar deze hebben vaak advertenties of minder functies."
+    },
+    {
+      "q": "Waarom zie ik geen EPG (programmagids) na het installeren van de playlist?",
+      "a": "De EPG-gids wordt niet automatisch meegeleverd met de M3U-playlist; je moet apart een EPG-URL toevoegen. Neem contact op met de klantenservice van je IPTV-abonnement (bijv. IPTV Kopen) voor de juiste EPG-link. Voer deze in bij de EPG-instellingen van de app. Let ook op de tijdzone: stel deze in op 'Europe/Amsterdam' voor Nederland of 'Europe/Brussels' voor België om programma's op de juiste tijd te zien."
+    },
+    {
+      "q": "Hoe kan ik IPTV in 4K-kwaliteit kijken op mijn LG TV?",
+      "a": "Zorg ervoor dat je IPTV-abonnement 4K-zenders ondersteunt – dit staat meestal vermeld bij de pakketten. Kies een IPTV-app die 4K-resolutie kan verwerken, zoals Smart IPTV of GSE Smart IPTV. Controleer of je LG TV daadwerkelijk 4K weergeeft (ga naar beeldinstellingen en zet de resolutie op 2160p). Een stabiele internetverbinding van minimaal 50 Mbps via Ethernet is aanbevolen om buffering bij 4K-streams te voorkomen."
+    },
+    {
+      "q": "Wat moet ik doen als mijn IPTV-abonnement ineens niet meer werkt op mijn LG TV?",
+      "a": "Start met het herstarten van zowel de TV als de router – dit lost tijdelijke netwerk- of sessieproblemen op. Controleer of je abonnementsperiode nog loopt via het klantenportaal van IPTV Kopen. Als het abonnement actief is, probeer dan de playlist opnieuw te laden in de app. Werkt het nog niet? Neem dan contact op met de 24/7 WhatsApp-support; zij kunnen de streamsessie resetten of een nieuwe M3U-link geven als de oude is verlopen."
+    },
+    {
+      "q": "Kan ik meerdere IPTV-abonnementen tegelijk gebruiken op één LG TV?",
+      "a": "Ja, dat is mogelijk. Sommige IPTV-apps zoals GSE Smart IPTV ondersteunen meerdere playlisten. Je kunt bijvoorbeeld een aparte playlist voor je IPTV Kopen-abonnement en een voor een testabonnement toevoegen. De app slaat beide op en je kunt eenvoudig schakelen. Houd er rekening mee dat je voor elke playlist een aparte EPG-bron kunt toevoegen. Let op: het gelijktijdig streamen via twee abonnementen kan de bandbreedte belasten, dus gebruik dit met mate."
+    }
+  ]
+}

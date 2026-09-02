@@ -125,5 +125,12 @@
     "category": "install",
     "status": "done",
     "slug": "iptv-en-chromecast-instellen"
+  },
+  {
+    "keyword": "IPTV LG Smart TV",
+    "angle": "Stapsgewijze installatiehandleiding",
+    "category": "device",
+    "status": "done",
+    "slug": "iptv-lg-smart-tv"
   }
 ]
