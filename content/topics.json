@@ -132,5 +132,12 @@
     "category": "device",
     "status": "done",
     "slug": "iptv-lg-smart-tv"
+  },
+  {
+    "keyword": "IPTV Kodi installeren",
+    "angle": "Stap-voor-stap handleiding voor het installeren van IPTV op Kodi in Nederland en België",
+    "category": "install",
+    "status": "done",
+    "slug": "iptv-kodi-installeren"
   }
 ]

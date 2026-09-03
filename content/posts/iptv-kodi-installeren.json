@@ -1,0 +1,164 @@
+{
+  "slug": "iptv-kodi-installeren",
+  "title": "IPTV Kodi installeren: complete stap-voor-stap handleiding voor NL en BE",
+  "date": "2026-09-03",
+  "author": "IPTV Kopen Team",
+  "readTime": 9,
+  "excerpt": "Leer hoe je IPTV op Kodi installeert met deze uitgebreide gids. Stap-voor-stap uitleg voor Nederland en België.",
+  "cover": "/blog/generated/iptv-kodi-installeren.jpg",
+  "coverAlt": "Persoon installeert IPTV op Kodi op een televisie met afstandsbediening, omringd door Nederlandse en Belgische vlaggen",
+  "category": "install",
+  "categoryLabel": "Installatie",
+  "sections": [
+    {
+      "heading": "Waarom Kodi een uitstekende keuze is voor IPTV in Nederland en België",
+      "body": [
+        "Kodi is een van de meest flexibele mediaspelers ter wereld en biedt een schat aan mogelijkheden voor het bekijken van live televisie, films en series. In Nederland en België groeit de populariteit van <a href=\"https://nl.wikipedia.org/wiki/IPTV\" target=\"_blank\" rel=\"noopener noreferrer\">IPTV</a>-abonnementen, en Kodi kan dienen als een centrale hub waarin je al je content verzamelt. De software is open-source, wat betekent dat er een actieve community is die continu nieuwe add-ons en functies ontwikkelt. Voor IPTV-gebruikers is het installeren van een geschikte add-on de sleutel tot een naadloze kijkervaring.",
+        "Een groot voordeel van Kodi is de platformonafhankelijkheid: het draait op Windows, macOS, Android, iOS, Linux en zelfs op Raspberry Pi. Dit maakt het een ideale oplossing voor zowel thuisgebruik als onderweg. Bovendien ondersteunt Kodi allerlei streams, van SD tot 4K, en kun je de interface volledig aanpassen met skins. Voor wie een IPTV-abonnement heeft, zoals aangeboden door <strong>IPTV Kopen</strong>, biedt Kodi een gestroomlijnde manier om zenders, films en series te ordenen zonder dat je meerdere apps nodig hebt.",
+        "In de Benelux is de vraag naar een betrouwbare IPTV-ervaring groot, mede door het hoge aantal kabelalternatieven. Kodi kan echter wel wat technische kennis vereisen, vooral bij het installeren van add-ons. Toch wegen de voordelen ruimschoots op tegen de leercurve. Met deze handleiding zorg je ervoor dat je in een handomdraai aan de slag kunt met jouw IPTV-abonnement op Kodi, zonder gedoe met configuratieproblemen of buffering.",
+        "Het gebruik van Kodi voor IPTV is volledig legaal zolang je een legitiem abonnement hebt. De software zelf is niet illegaal; het gaat om de bronnen die je ermee ontsluit. Door te kiezen voor een gerenommeerde aanbieder zoals IPTV Kopen, die werkt met officiële streams, blijf je aan de veilige kant. Kodi fungeert dan als een professionele interface waarin je jouw zenders in HD/4K kunt bekijken, met directe activatie en 24/7 ondersteuning via WhatsApp."
+      ],
+      "list": []
+    },
+    {
+      "heading": "Voorbereiding: wat je nodig hebt voor een soepele installatie",
+      "body": [
+        "Voordat je begint met het installeren van IPTV op Kodi, is het belangrijk om alle benodigdheden op een rij te zetten. Allereerst heb je een geschikt apparaat nodig: een computer, een Android TV-box, een Fire TV Stick, een NVIDIA Shield of een Raspberry Pi. Kodi is licht genoeg om op de meeste moderne hardware te draaien, maar voor 4K-streams is een degelijke processor en voldoende RAM aan te raden. Zorg ook voor een stabiele internetverbinding; een bekabelde verbinding verdient de voorkeur boven wifi, omdat IPTV-streams veel bandbreedte vragen.",
+        "Daarnaast heb je jouw IPTV-abonnementsgegevens nodig. Bij IPTV Kopen ontvang je na aankoop een gebruikersnaam en wachtwoord, of een M3U-link. Dit is de sleutel om de zenders in Kodi te krijgen. Het is handig om deze gegevens bij de hand te hebben, bijvoorbeeld in een notitie of e-mail. Verder moet je weten of je aanbieder een specifieke add-on aanbeveelt. Veel IPTV-aanbieders werken met de PVR IPTV Simple Client, een standaard Kodi-add-on die M3U-links en XMLTV-epg ondersteunt.",
+        "Een andere voorbereiding is het inschakelen van onbekende bronnen in Kodi, zodat je add-ons van derden kunt installeren. Dit doe je via de instellingen van Kodi, onder het systeemmenu. Let op: wees altijd voorzichtig met add-ons uit onbetrouwbare bronnen – blijf bij officiële repositories of aanbevolen kanalen. Als je deze stappen vooraf doorneemt, verloopt de installatie vlot en voorkom je vertragingen. Denk ook aan een afstandsbediening of toetsenbord voor eenvoudige navigatie, vooral op tv-boxen.",
+        "Tot slot is het raadzaam om de laatste versie van Kodi te downloaden van de officiële website (kodi.tv). Vermijd versies uit app stores van derden, omdat die soms verouderd of aangepast zijn. Een schone installatie minimaliseert fouten. Met deze voorbereidingen leg je een solide basis voor het installeren van IPTV op Kodi, of je nu in Nederland of België woont."
+      ],
+      "list": [
+        "Download de nieuwste Kodi-versie van kodi.tv",
+        "Zorg voor een stabiele internetverbinding (bij voorkeur bekabeld)",
+        "Houd je IPTV-abonnementsgegevens (M3U-link of inloggegevens) gereed",
+        "Schakel 'Onbekende bronnen' in via Instellingen &gt; Systeem &gt; Add-ons",
+        "Kies een geschikt apparaat: Android TV-box, Fire Stick, pc of Raspberry Pi"
+      ]
+    },
+    {
+      "heading": "Stap 1: Kodi downloaden en installeren op jouw apparaat",
+      "body": [
+        "De eerste concrete stap is het installeren van Kodi zelf. Ga naar de officiële website (kodi.tv) en klik op 'Download'. Kodi is beschikbaar voor vrijwel elk besturingssysteem. Voor Windows kies je het .exe-bestand, voor macOS het .dmg-bestand en voor Android het .apk-bestand. Als je een Android TV-box of Fire TV Stick gebruikt, kun je Kodi vaak via de Google Play Store of Amazon Appstore installeren. Let op de juiste architectuur (32-bit of 64-bit) voor jouw apparaat.",
+        "Tijdens de installatie hoef je geen speciale opties aan te passen; de standaardinstellingen volstaan. Voor gevorderden is het mogelijk om Kodi in een portable modus te installeren, maar voor de meeste gebruikers is de gewone installatie prima. Na het installeren open je Kodi en doorloop je de eerste configuratie: kies een taal (Nederlands is beschikbaar) en stel de interface naar wens in. Je kunt later altijd nog skins toevoegen, maar voor de IPTV-installatie is de standaard skin 'Estuary' voldoende.",
+        "Een belangrijk detail: als je Kodi op een Android TV-box installeert, zorg dan dat de app toestemming heeft om bestanden te openen en op de achtergrond te draaien. Dit voorkomt dat Kodi onverwacht wordt afgesloten tijdens het streamen. Ook op Fire TV-sticks moet je mogelijk 'Apps uit onbekende bronnen' toestaan in de instellingen. Deze stap is cruciaal omdat IPTV-add-ons niet altijd uit de officiële Kodi-repository komen. Na een geslaagde installatie zie je het beginscherm met de opties voor video's, muziek en add-ons.",
+        "Heb je Kodi eenmaal geïnstalleerd, dan is het tijd om de add-on voor IPTV te laden. Dit is het hart van de configuratie. Zorg dat je de laatste versie van Kodi gebruikt, want oudere versies kunnen problemen geven met bepaalde add-ons. Een recente update lost vaak beveiligingslekken en stabiliteitsissues op. Met een verse Kodi-installatie ben je klaar voor de volgende stap: het toevoegen van de juiste IPTV-add-on."
+      ],
+      "list": []
+    },
+    {
+      "heading": "Stap 2: De juiste IPTV-add-on vinden en toevoegen",
+      "body": [
+        "Kodi werkt met add-ons om specifieke functionaliteiten toe te voegen, en voor IPTV is de meest gebruikte add-on de 'PVR IPTV Simple Client'. Deze is officieel beschikbaar in de Kodi-repository en vereist geen installatie van externe bronnen. Ga naar het beginscherm, klik op 'Add-ons' en vervolgens op het pakketicoontje linksboven. Kies 'Installeren vanuit repository', dan 'Kodi Add-on repository', 'PVR-clients' en selecteer 'PVR IPTV Simple Client'. Klik op 'Installeren' en wacht tot de melding 'Add-on geïnstalleerd' verschijnt.",
+        "Er zijn ook alternatieve add-ons zoals 'IPTV Merge' of 'Xtream Codes' (voor aanbieders die Xtream-API ondersteunen). Deze zijn vaak niet in de officiële repository te vinden, maar in repositories van derden zoals 'Matre69' of 'Digi'. Voor een IPTV-abonnement van IPTV Kopen is de PVR IPTV Simple Client echter de beste keuze, omdat deze eenvoudig een M3U-link of lokaal bestand kan laden. Het is een lichte, stabiele add-on die geen extra poespas nodig heeft.",
+        "Als je een add-on van een externe repository wilt installeren, moet je eerst de repository-bron toevoegen. Dit doe je via 'Instellingen' &gt; 'Bestandsbeheer' &gt; 'Bron toevoegen'. Voer de URL van de repository in (bijvoorbeeld http://repo_url) en geef deze een naam. Daarna ga je naar 'Add-ons' en kies je 'Installeren vanuit zip-bestand' om de repository te laden. Vervolgens kun je add-ons uit die repository installeren. Let op: gebruik alleen repositories die je vertrouwt, aangezien kwaadaardige add-ons schade kunnen aanrichten.",
+        "Na de installatie van de PVR IPTV Simple Client moet je deze nog configureren. Dit brengt ons bij de volgende stap, waarin je jouw IPTV-abonnementsgegevens invoert. Een goed geconfigureerde add-on zorgt voor een stabiele weergave van alle zenders, inclusief EPG (elektronische programmagids). Zonder deze configuratie werkt de add-on niet, dus volg de volgende stap nauwkeurig."
+      ],
+      "list": [
+        "Open Kodi &gt; Add-ons &gt; Pakketicoon &gt; Installeren vanuit repository",
+        "Kies Kodi Add-on repository &gt; PVR-clients &gt; PVR IPTV Simple Client",
+        "Klik op Installeren en wacht tot de melding verschijnt",
+        "Voor externe add-ons: voeg eerst de repository-bron toe via Bestandsbeheer",
+        "Installeer vervolgens de add-on via 'Installeren vanuit zip-bestand'"
+      ]
+    },
+    {
+      "heading": "Stap 3: IPTV-abonnement configureren in de add-on",
+      "body": [
+        "Nu de PVR IPTV Simple Client is geïnstalleerd, is het tijd om deze te koppelen aan je IPTV-abonnement. Ga naar 'Add-ons' &gt; 'Mijn add-ons' &gt; 'PVR-clients' en klik op 'PVR IPTV Simple Client'. Kies 'Configureren'. Er verschijnt een scherm met meerdere opties. Het belangrijkste is het tabblad 'Algemeen' of 'M3U-playlist'. Hier kun je aangeven of je een M3U-link (URL) of een lokaal bestand wilt gebruiken. Voor een IPTV-abonnement van IPTV Kopen ontvang je doorgaans een M3U-link. Selecteer 'Extern kanaalbestand (M3U)' en plak de link in het veld.",
+        "Naast de M3U-link kun je ook een EPG-bron toevoegen voor de programmagids. IPTV Kopen levert vaak een XMLTV-link mee. Voeg deze toe in het tabblad 'EPG-instellingen' door 'Extern EPG-bestand (XMLTV)' te selecteren en de URL in te vullen. Dit zorgt ervoor dat je in Kodi niet alleen de zenders ziet, maar ook de programmatitels en tijden. Een goede EPG maakt het kijken naar live tv een stuk overzichtelijker, vooral bij tientallen zenders.",
+        "Klik vervolgens op 'OK' om de instellingen op te slaan. Kodi zal nu vragen of je de add-on wilt inschakelen als PVR-client. Bevestig dit. Kodi begint met het laden van de kanalen en EPG-gegevens, wat enkele seconden tot een minuut kan duren. Na voltooiing kun je via het hoofdmenu naar 'TV' gaan, waar alle zenders verschijnen. Je kunt ze filteren op naam, favorieten instellen en de EPG raadplegen. Het is aan te raden om de add-on regelmatig te vernieuwen, vooral als je abonnement verloopt of als er nieuwe zenders worden toegevoegd.",
+        "Mocht je problemen ondervinden, controleer dan of de M3U-link correct is gekopieerd (geen spaties of extra tekens). Ook kan het helpen om de add-on opnieuw te starten of Kodi volledig te herstarten. Bij een IPTV-abonnement van IPTV Kopen is de link direct actief, dus als het niet werkt, neem dan contact op met de 24/7 WhatsApp-ondersteuning. Ze kunnen je helpen met specifieke configuratie-issues voor Kodi."
+      ],
+      "list": [
+        "Ga naar Add-ons &gt; Mijn add-ons &gt; PVR-clients &gt; PVR IPTV Simple Client &gt; Configureren",
+        "Kies bij 'M3U-playlist' de optie 'Extern kanaalbestand' en plak de M3U-link",
+        "Voeg bij 'EPG-instellingen' de XMLTV-link toe voor de programmagids",
+        "Sla op en bevestig dat de add-on als PVR-client wordt ingeschakeld",
+        "Ga naar TV in het hoofdmenu om de zenders te bekijken"
+      ]
+    },
+    {
+      "heading": "Optimalisatie: buffering en afspeelproblemen voorkomen",
+      "body": [
+        "Zelfs met een perfecte installatie kun je te maken krijgen met buffering of haperingen, vooral bij 4K-streams. De oorzaak ligt vaak bij de netwerkinstellingen of de cache van Kodi. Een eerste stap is het aanpassen van de buffergrootte in Kodi. Dit doe je via 'Instellingen' &gt; 'Speler' &gt; 'Video' en vervolgens 'Videobuffer' naar 'Geavanceerd' zetten. Stel de 'Maximale buffer' in op bijvoorbeeld 10 MB (of hoger voor 4K). Dit zorgt dat Kodi meer data vooraf laadt, wat schokkerig afspelen vermindert.",
+        "Daarnaast is het belangrijk om de hardwareversnelling uit te schakelen als die problemen geeft. Dit doe je bij 'Instellingen' &gt; 'Speler' &gt; 'Video' &gt; 'Afspelen' &gt; 'Toestaan hardwareversnelling' uitzetten. Soms werkt software-decoding beter op apparaten met een zwakkere GPU. Ook het verlagen van de videokwaliteit naar 1080p in plaats van 4K kan helpen als je internetverbinding niet stabiel genoeg is. Een IPTV-abonnement bij IPTV Kopen biedt streams in HD/4K, maar je kunt in de instellingen van de add-on eventueel een lagere bitrate kiezen (indien ondersteund).",
+        "Een andere tip is het gebruik van een VPN, vooral in Nederland en België waar sommige ISPs IPTV-verkeer kunnen throttlen. Een VPN versleutelt je verbinding en voorkomt dat je provider de streams vertraagt. Kies een VPN met een server in de buurt voor minimale latentie. Let op: gebruik een VPN die Kodi ondersteunt, bijvoorbeeld via een OpenVPN-configuratie. IPTV Kopen heeft geen officiële VPN-aanbeveling, maar het is een veelgebruikte oplossing voor een soepele ervaring.",
+        "Vergeet niet om Kodi en de add-on up-to-date te houden. Ontwikkelaars lossen continu bugs op die buffering kunnen veroorzaken. Controleer regelmatig op updates via de Kodi-repository. Als je nog steeds problemen hebt, test dan of dezelfde stream in een andere app (zoals IPTV Smarters) wel soepel loopt. Zo ja, dan ligt het aan de Kodi-configuratie; zo niet, dan is het abonnement of de internetverbinding de boosdoener. Met deze optimalisaties geniet je van een vloeiende IPTV-ervaring op Kodi."
+      ],
+      "list": [
+        "Verhoog de videobuffer in Kodi (Instellingen &gt; Speler &gt; Video &gt; Maximale buffer)",
+        "Schakel hardwareversnelling uit als er haperingen optreden",
+        "Overweeg een VPN om throttling door je provider te voorkomen",
+        "Houd Kodi en de add-on up-to-date via de repository",
+        "Test dezelfde stream in een andere IPTV-app om de oorzaak te isoleren"
+      ]
+    },
+    {
+      "heading": "Veelvoorkomende fouten bij IPTV op Kodi oplossen",
+      "body": [
+        "Een van de meest voorkomende fouten is 'PVR IPTV Simple Client: Kan niet verbinden met de backend'. Dit ontstaat meestal doordat de M3U-link niet correct is ingevoerd of de add-on niet als PVR-client is ingeschakeld. Controleer of de link begint met 'http://' of 'https://' en of er geen typfouten in zitten. Herstart Kodi en ga naar 'TV' – als de zenders niet verschijnen, ga dan terug naar de configuratie en klik op 'Opnieuw laden'. Soms helpt het om de add-on te deactiveren en opnieuw te activeren.",
+        "Een andere foutmelding is 'Geen kanalen gevonden'. Dit kan betekenen dat de M3U-link wel werkt, maar dat de EPG-bron niet correct is. Of de add-on heeft de kanalen niet kunnen parseren. Probeer een andere M3U-link (vraag een nieuwe aan bij je aanbieder). Bij IPTV Kopen kun je eenvoudig een nieuwe link opvragen via de WhatsApp-ondersteuning. Ook het wissen van de cache van de add-on via 'Add-on-instellingen' &gt; 'Geavanceerd' &gt; 'Cache wissen' kan helpen.",
+        "Soms crasht Kodi of reageert het niet meer na het installeren van een add-on. Dit wijst vaak op een incompatibele add-on of een te zwak apparaat. Verwijder de add-on via 'Mijn add-ons' en installeer een lichtere variant, zoals de PVR IPTV Simple Client. Als Kodi blijft crashen, probeer dan een schone installatie (back-up je configuratie eerst). Ook het uitschakelen van ongebruikte add-ons kan de prestaties verbeteren.",
+        "Een laatste tip: gebruik de logbestanden van Kodi om fouten te traceren. Ga naar 'Instellingen' &gt; 'Systeem' &gt; 'Logboek' en schakel 'Logboek naar bestand' in. Na een fout kun je het logbestand openen in een teksteditor. Zoek naar termen als 'error' of 'failed'. Dit geeft vaak exact aan wat er misgaat. Deel dit logbestand met de ondersteuning van IPTV Kopen als je er zelf niet uitkomt. Zij kunnen je op afstand helpen met de specifieke fout."
+      ],
+      "list": [
+        "Controleer de M3U-link op typfouten en zorg dat deze met 'http://' begint",
+        "Herstart Kodi en herlaad de add-on via 'Opnieuw laden'",
+        "Wis de cache van de PVR Client via de add-on-instellingen",
+        "Verwijder conflicterende add-ons of installeer een schone Kodi",
+        "Gebruik het logboek (Instellingen &gt; Systeem &gt; Logboek) om fouten te vinden"
+      ]
+    },
+    {
+      "heading": "Alternatieve IPTV-apps naast Kodi: wanneer kies je wat?",
+      "body": [
+        "Hoewel Kodi een krachtige oplossing is, zijn er ook andere apps die specifiek voor IPTV zijn ontwikkeld. Denk aan IPTV Smarters, TiviMate, GSE Smart IPTV en Smart IPTV. Deze apps zijn vaak eenvoudiger in gebruik en vereisen minder configuratie. IPTV Smarters is bijvoorbeeld populair vanwege de intuïtieve interface en ondersteuning voor meerdere gebruikers. TiviMate biedt een uitstekende EPG en is ideaal voor Android TV. GSE Smart IPTV werkt op iOS en Android, en Smart IPTV is een betaalde app voor smart-tv's.",
+        "Wanneer kies je voor Kodi en wanneer voor een andere app? Kodi is het beste als je een alles-in-één mediaspeler wilt voor films, series, muziek én IPTV. Het is ook geschikt voor powerusers die graag skins en extra functionaliteiten toevoegen. Voor een pure IPTV-ervaring zonder poespas zijn IPTV Smarters of TiviMate vaak beter. Ze zijn lichter, sneller en starten direct op zonder dat je door menu's hoeft te navigeren. Ook de ondersteuning voor meerdere schermen en ouderlijk toezicht is in deze apps vaak beter uitgewerkt.",
+        "Een IPTV-abonnement van IPTV Kopen is compatibel met al deze apps, inclusief Kodi. Je kunt dus meerdere apps op hetzelfde apparaat installeren en naar wens schakelen. Sommige gebruikers gebruiken Kodi voor de flexibiliteit en daarnaast IPTV Smarters als backup. Het is aan te raden om te experimenteren; de meeste apps bieden een gratis proefperiode of zijn gratis te downloaden. Let alleen op dat je legitieme versies gebruikt uit de officiële app stores.",
+        "Uiteindelijk hangt de keuze af van jouw persoonlijke voorkeur en het apparaat. Op een Fire TV Stick werkt TiviMate vaak vloeiender dan Kodi, terwijl op een NVIDIA Shield Kodi uitstekend presteert. Voor wie waarde hecht aan een mooie interface met programmagids en opnames, is TiviMate een sterke concurrent. Maar voor de echte doe-het-zelver blijft Kodi de onbetwiste kampioen. Met deze handleiding heb je in elk geval een solide basis om IPTV op Kodi te installeren, mocht je die route kiezen."
+      ],
+      "list": [
+        "IPTV Smarters: eenvoudig, meerdere gebruikers, breed ondersteund",
+        "TiviMate: uitstekende EPG, ideaal voor Android TV, ondersteunt opnames",
+        "GSE Smart IPTV: werkt op iOS/Android, ondersteunt M3U en Xtream",
+        "Smart IPTV: betaalde app voor smart-tv's, stabiel maar beperkt",
+        "Kodi: meest flexibel, maar complexer; ideaal voor multimedia-hub"
+      ]
+    },
+    {
+      "heading": "Meer weten?",
+      "body": [
+        "Bekijk ons <a href=\"/iptv-abonnement\">IPTV abonnement</a> voor de actuele pakketten en kies de formule die bij je past.",
+        "Lees ook ons artikel over <a href=\"/nieuws/iptv-en-chromecast-instellen\">IPTV op Chromecast instellen: Compleet stappenplan voor Android en iPhone</a>."
+      ],
+      "list": []
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kan ik elk IPTV-abonnement gebruiken op Kodi?",
+      "a": "Ja, de meeste IPTV-abonnementen zijn compatibel met Kodi zolang je een M3U-link of Xtream-API-gegevens hebt. IPTV Kopen levert bijvoorbeeld een M3U-link en XMLTV-EPG die eenvoudig in de PVR IPTV Simple Client te configureren zijn. Controleer wel of je aanbieder specifieke add-ons aanbeveelt, maar in de regel werkt de standaard PVR-client met elke M3U-bron."
+    },
+    {
+      "q": "Hoe installeer ik een M3U-link in Kodi?",
+      "a": "Installeer eerst de PVR IPTV Simple Client via de Kodi-repository. Ga daarna naar Configureren, kies het tabblad 'M3U-playlist' en selecteer 'Extern kanaalbestand'. Plak de M3U-link in het veld. Voeg eventueel de EPG-link toe onder 'EPG-instellingen'. Sla op en schakel de add-on in als PVR-client. De zenders verschijnen in het TV-menu."
+    },
+    {
+      "q": "Werkt Kodi ook op een smart-tv?",
+      "a": "Kodi is beschikbaar voor Android TV, dus op smart-tv's met Android TV (zoals Sony, Philips, TCL) kun je Kodi installeren via de Play Store. Op andere smart-tv's zoals Samsung of LG (met Tizen/webOS) is Kodi niet officieel beschikbaar. Je kunt dan een extern apparaat gebruiken zoals een Fire TV Stick of Android TV-box, of een alternatieve IPTV-app zoals Smart IPTV."
+    },
+    {
+      "q": "Zijn er risico's aan het gebruik van Kodi voor IPTV?",
+      "a": "Kodi zelf is volkomen veilig en legaal. De risico's zitten in het installeren van add-ons uit onbetrouwbare bronnen, die malware kunnen bevatten of illegale streams aanbieden. Gebruik alleen officiële repositories of bronnen die je vertrouwt. Met een legitiem IPTV-abonnement zoals van IPTV Kopen zijn er geen juridische risico's, omdat je betaalt voor toegang tot legale content."
+    },
+    {
+      "q": "Hoe update ik mijn IPTV-add-on in Kodi?",
+      "a": "Updates voor de PVR IPTV Simple Client worden beheerd via de Kodi-repository. Ga naar 'Add-ons' > 'Mijn add-ons' > 'PVR-clients' > 'PVR IPTV Simple Client' en klik op 'Informatie'. Als er een update beschikbaar is, verschijnt er een knop 'Update'. Klik erop en wacht tot de installatie voltooid is. Herstart Kodi om de wijzigingen door te voeren."
+    },
+    {
+      "q": "Wat is het verschil tussen Kodi en IPTV Smarters voor IPTV?",
+      "a": "Kodi is een uitgebreid mediaspelersysteem dat naast IPTV ook films, series, muziek en foto's ondersteunt. Het is zeer aanpasbaar maar vereist meer configuratie. IPTV Smarters is een gespecialiseerde IPTV-app met een eenvoudigere interface, snellere installatie en functies zoals meerdere gebruikersprofielen en ouderlijk toezicht. Kies Kodi voor een alles-in-één ervaring, IPTV Smarters voor een pure IPTV-oplossing."
+    }
+  ]
+}
