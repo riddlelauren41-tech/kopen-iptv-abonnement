@@ -139,5 +139,12 @@
     "category": "install",
     "status": "done",
     "slug": "iptv-kodi-installeren"
+  },
+  {
+    "keyword": "IPTV op Sony Smart TV",
+    "angle": "Handleiding voor het installeren van IPTV op een Sony Smart TV met Android TV",
+    "category": "device",
+    "status": "done",
+    "slug": "iptv-op-sony-smart-tv"
   }
 ]
