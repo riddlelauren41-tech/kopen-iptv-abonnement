@@ -146,5 +146,12 @@
     "category": "device",
     "status": "done",
     "slug": "iptv-op-sony-smart-tv"
+  },
+  {
+    "keyword": "IPTV Windows PC",
+    "angle": "Stap-voor-stap handleiding voor het installeren van IPTV op een Windows PC",
+    "category": "device",
+    "status": "done",
+    "slug": "iptv-windows-pc"
   }
 ]
