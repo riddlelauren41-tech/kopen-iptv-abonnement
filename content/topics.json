@@ -153,5 +153,12 @@
     "category": "device",
     "status": "done",
     "slug": "iptv-windows-pc"
+  },
+  {
+    "keyword": "IPTV expats",
+    "angle": "Hoe IPTV je lokale zenders thuis laat kijken in het buitenland",
+    "category": "general",
+    "status": "done",
+    "slug": "iptv-expats"
   }
 ]
