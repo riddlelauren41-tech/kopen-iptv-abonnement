@@ -160,5 +160,12 @@
     "category": "general",
     "status": "done",
     "slug": "iptv-expats"
+  },
+  {
+    "keyword": "IPTV Roku installeren",
+    "angle": "Hoe installeer je IPTV op Roku? Een complete gids voor het streamen van je IPTV-abonnement op Roku-apparaten.",
+    "category": "install",
+    "status": "done",
+    "slug": "iptv-roku-installeren"
   }
 ]
