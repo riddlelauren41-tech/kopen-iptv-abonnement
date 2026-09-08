@@ -167,5 +167,12 @@
     "category": "install",
     "status": "done",
     "slug": "iptv-roku-installeren"
+  },
+  {
+    "keyword": "IPTV internet snelheid",
+    "angle": "Welke internetsnelheid is nodig voor IPTV?",
+    "category": "technique",
+    "status": "done",
+    "slug": "iptv-internet-snelheid"
   }
 ]
