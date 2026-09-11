@@ -181,5 +181,12 @@
     "category": "general",
     "status": "done",
     "slug": "iptv-voor-internationale-zenders-in-het-nederlands"
+  },
+  {
+    "keyword": "IPTV en netneutraliteit in Nederland/België",
+    "angle": "Wat de afschaffing van netneutraliteit in sommige landen betekent voor IPTV-gebruikers, en hoe de situatie in Nederland en België zich verhoudt tot blokkades en throttling.",
+    "category": "technique",
+    "status": "done",
+    "slug": "iptv-en-netneutraliteit-in-nederland-belgie"
   }
 ]
