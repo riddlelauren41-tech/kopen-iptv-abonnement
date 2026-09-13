@@ -195,5 +195,12 @@
     "category": "general",
     "status": "done",
     "slug": "iptv-voor-series-en-films-kijken"
+  },
+  {
+    "keyword": "IPTV terugkijken",
+    "angle": "IPTV terugkijken: hoe werkt catch-up TV in Nederland en België",
+    "category": "technique",
+    "status": "done",
+    "slug": "iptv-terugkijken"
   }
 ]

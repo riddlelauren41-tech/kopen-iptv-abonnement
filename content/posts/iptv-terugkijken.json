@@ -1,0 +1,138 @@
+{
+  "slug": "iptv-terugkijken",
+  "title": "IPTV terugkijken: Alles over Catch-Up TV in Nederland en België",
+  "date": "2026-09-13",
+  "author": "IPTV Kopen Team",
+  "readTime": 9,
+  "excerpt": "Leer hoe IPTV terugkijken (catch-up TV) werkt in Nederland en België, inclusief functies, compatibiliteit en praktische tips voor een naadloze ervaring.",
+  "cover": "/blog/generated/iptv-terugkijken.jpg",
+  "coverAlt": "IPTV terugkijken op een smart-tv met afstandsbediening, met een overzicht van gemiste programma's.",
+  "category": "technique",
+  "categoryLabel": "Probleemoplossing",
+  "sections": [
+    {
+      "heading": "Wat is IPTV terugkijken en hoe verschilt het van traditionele TV?",
+      "body": [
+        "<a href=\"https://nl.wikipedia.org/wiki/IPTV\" target=\"_blank\" rel=\"noopener noreferrer\">IPTV</a> terugkijken, ook wel catch-up TV genoemd, is een functionaliteit waarmee je live uitgezonden televisieprogramma’s kunt bekijken tot enkele uren of dagen na de oorspronkelijke uitzendtijd. In tegenstelling tot traditionele lineaire televisie, waarbij je een programma moet opnemen via een harde schijf of een videorecorder, wordt bij IPTV het signaal digitaal opgeslagen op de server van de aanbieder. Dit betekent dat jij als kijker geen eigen opslag nodig hebt; je selecteert eenvoudig het gewenste programma uit een overzicht en start het afspelen direct. De technologie maakt gebruik van time-shifted viewing, waarbij het streamsignaal wordt gepauzeerd of teruggespoeld, maar dan zonder dat je zelf hebt opgenomen. Voor Nederland en België, waar veel kijkers gewend zijn aan NPO Start of VRT NU, biedt een <a href=\"/iptv-abonnement\">IPTV abonnement</a> zoals dat van <strong>IPTV Kopen</strong> een vergelijkbare maar vaak uitgebreidere ervaring, omdat het alle zenders van de gekozen lijst omvat.",
+        "Het grote verschil met traditionele opname-functies is de eenvoud: er is geen planning of timerinstelling nodig. De aanbieder beheert de inhoud centraal, waardoor je altijd terug kunt kijken naar wat er de afgelopen dagen is uitgezonden, mits de zender is opgenomen in de catch-up catalogus. Dit is vooral handig voor sportevenementen, nieuwsbulletins of series die je per ongeluk hebt gemist. Waar traditionele tv-opnames vaak beperkt zijn tot één of twee tuners, kun je bij IPTV onbeperkt tegelijkertijd terugkijken, zolang je apparaat en internetverbinding het aankunnen. De kwaliteit van de beelden blijft behouden, van HD tot 4K, omdat de bestanden direct vanaf de server worden gestreamd zonder kwaliteitsverlies door compressie bij opname.",
+        "Een ander essentieel punt is dat catch-up TV niet hetzelfde is als Video on Demand (VOD). Bij VOD kies je uit een bibliotheek met films en series die maanden of jaren beschikbaar blijven. Terugkijken daarentegen is gelimiteerd in tijd – vaak 24 tot 72 uur na uitzending – en is alleen van toepassing op live uitgezonden kanalen. Dit maakt het een hybride functie die de brug slaat tussen lineair kijken en streaming. In België en Nederland wordt deze functie steeds populairder, omdat kijkers steeds minder gebonden willen zijn aan vaste uitzendtijden.",
+        "Voor IPTV Kopen-gebruikers is catch-up standaard ingebouwd in de meeste ondersteunde apps, zoals TiviMate en IPTV Smarters. Het is belangrijk om te weten dat de beschikbaarheid van terugkijken per zender kan verschillen; commerciële zenders bieden het vaak wel aan, maar sommige lokale of themakanalen niet. Controleer daarom altijd de zenderlijst van jouw IPTV abonnement. De functie activeert zich automatisch zodra je een live zender opent en een paar seconden terugspoelt; daarna verschijnt er een optie om het volledige archief te doorlopen."
+      ],
+      "list": []
+    },
+    {
+      "heading": "De technologie achter catch-up TV: hoe slaat IPTV programma's op?",
+      "body": [
+        "Catch-up TV bij IPTV werkt op basis van een continu opnameproces op de servers van de aanbieder. Zodra een live zender wordt gestreamd, neemt een achtergrondproces alle audio- en videogegevens op in gesegmenteerde bestanden, meestal in formaten zoals HLS (HTTP Live Streaming) of MPEG-TS. Deze segmenten worden opgeslagen in een tijdelijke buffer die automatisch wordt opgeschoond na een bepaalde retentieperiode – vaak 24, 48 of 72 uur. De lengte van deze periode hangt af van het abonnement en de servercapaciteit; bij IPTV Kopen wordt doorgaans 48 uur terugkijken geboden voor de meeste zenders, wat voldoende is om een avondprogramma de volgende dag te bekijken.",
+        "Het systeem maakt gebruik van een elektronische programmagids (EPG) om de opnames te structureren. De EPG bevat metadata zoals titel, beschrijving, starttijd en duur van elk programma. Wanneer je in de interface van een app zoals Smart IPTV of GSE Smart IPTV kiest voor terugkijken, wordt deze metadata geladen en gepresenteerd als een tijdlijn of lijst. De app communiceert vervolgens met de server om het juiste segment op te vragen, beginnend vanaf het moment dat het programma begon. Dit gebeurt door middel van een URL die een tijdstempel bevat, bijvoorbeeld ‘?start=1712345678&amp;duration=3600’. De server stuurt dan de corresponderende bestandssegmenten, die jouw app decodeert en afspeelt.",
+        "Een belangrijk technisch detail is dat de opslag niet oneindig is. Vanwege de enorme hoeveelheid data van honderden kanalen in HD/4K, worden oude opnames permanent verwijderd om schijfruimte vrij te maken. Dit betekent dat je niet terug kunt kijken naar uitzendingen van een week geleden – daarvoor is VOD de juiste functie. De efficiëntie van het systeem hangt af van de netwerkinfrastructuur: hoe sneller de server, hoe korter de laadtijd. In Nederland en België, met goede glasvezelverbindingen, ervaar je meestal geen vertraging; bij een tragere DSL-verbinding kan het bufferen enkele seconden duren.",
+        "Voor IPTV Kopen wordt de catch-up-functionaliteit geoptimaliseerd via CDN-netwerken (Content Delivery Network), die de bestanden verspreiden over meerdere locaties. Dit vermindert latentie en zorgt ervoor dat gebruikers in Zeeland of Limburg even snel toegang hebben als iemand in Amsterdam. De technologie is robuust, maar vereist een stabiele internetverbinding van minstens 10 Mbps voor HD en 25 Mbps voor 4K terugkijkstreams. Mocht de verbinding wegvallen, dan kun je de stream hervatten vanaf het laatste afspeelpunt, dankzij geavanceerde caching op de app."
+      ],
+      "list": []
+    },
+    {
+      "heading": "Waarom is catch-up TV onmisbaar voor Nederlandse en Belgische kijkers?",
+      "body": [
+        "In Nederland en België hebben kijkers te maken met een breed aanbod aan lineaire zenders, van NPO 1 tot VTM en RTL4. Het dagelijkse leven – werk, gezin, sociale verplichtingen – zorgt er vaak voor dat je een uitzending mist, vooral tijdens de avonduren. Catch-up TV biedt een uitkomst door je de vrijheid te geven programma’s te bekijken op een moment dat jou uitkomt. Dit sluit naadloos aan bij de Nederlandse en Belgische cultuur van efficiëntie en flexibiliteit, waarin men steeds meer waarde hecht aan on-demand content, zoals blijkt uit de populariteit van diensten als NPO Start en VRT NU. Met een IPTV abonnement van IPTV Kopen ben je niet beperkt tot de catalogus van één omroep, maar kun je uit honderden kanalen kiezen, inclusief internationale zenders.",
+        "Een specifiek voordeel voor deze regio’s is de mogelijkheid om live sportevenementen terug te kijken. Denk aan Eredivisie-wedstrijden, Formule 1-races of de Ronde van Vlaanderen – deze evenementen worden vaak op onmogelijke tijdstippen uitgezonden door werk of school. Met terugkijken kun je de race of wedstrijd later in alle rust bekijken, zonder spoilers van sociale media. Ook nieuwsprogramma’s, zoals EenVandaag of Het Journaal, zijn ideaal voor catch-up, omdat je ze kunt doorspoelen naar de onderwerpen die jou interesseren.",
+        "Bovendien speelt catch-up een belangrijke rol in het verminderen van commerciële onderbrekingen. Bij live tv kun je niet wegzappen tijdens reclameblokken zonder het programma te missen, maar bij terugkijken kun je simpelweg door de reclame heen spoelen. Dit verhoogt het kijkplezier aanzienlijk. Veel apps, zoals TiviMate, hebben een speciale ‘skip forward’-knop waarmee je in stappen van 30 seconden door de reclame springt. Dit is een functie die traditionele tv-opnames niet soepel ondersteunen.",
+        "Tot slot is catch-up TV onmisbaar voor gezinnen. Ouders kunnen bijvoorbeeld ’s avonds laat een documentaire kijken die overdag door de kinderen is gemist, of vice versa. Omdat het IPTV abonnement meerdere apparaten tegelijk ondersteunt, kunnen verschillende gezinsleden elk op hun eigen apparaat terugkijken naar verschillende programma’s. Deze gelijktijdigheid is een groot voordeel ten opzichte van een gedeelde harde-opname. Voor IPTV Kopen is het standaard mogelijk om tot vier streams tegelijk te gebruiken, wat ideaal is voor een huishouden."
+      ],
+      "list": [
+        "Open de IPTV-app op je apparaat (bijv. IPTV Smarters of TiviMate).",
+        "Navigeer naar de zender die je wilt terugkijken, meestal via de live tv-lijst.",
+        "Druk op de terugspoelknop of selecteer de optie ‘Catch-up’ in het menu.",
+        "Kies het gewenste programma uit de EPG-lijst of tijdlijn.",
+        "Start de stream en gebruik spoelknoppen om naar het exacte moment te gaan."
+      ]
+    },
+    {
+      "heading": "Hoe gebruik je catch-up TV met IPTV Smarters, TiviMate en andere apps?",
+      "body": [
+        "De manier waarop je catch-up TV activeert, hangt af van de app die je gebruikt met jouw IPTV abonnement. IPTV Smarters, een van de populairste apps, heeft een specifiek ‘Catch-up’-tabblad in het hoofdmenu. Hier zie je een chronologische lijst van gemiste programma’s per zender, inclusief datum, tijd en titel. Je hoeft alleen maar op het gewenste item te klikken om het afspelen te starten. De app onthoudt automatisch waar je gebleven bent, zodat je later verder kunt kijken. Het is compatibel met zowel Android als iOS en werkt goed op Fire TV-sticks.",
+        "TiviMate, een andere veelgebruikte app, biedt een geïntegreerde tijdlijnweergave. Wanneer je een live zender bekijkt, zie je onderin een balk met de afgelopen uren. Door naar links te swipen of de terugspoelknop in te drukken, kun je teruggaan in de tijd. TiviMate toont ook miniaturen van de programma’s, wat het visueel makkelijk maakt om te navigeren. Deze app is vooral geliefd bij gebruikers in Nederland en België vanwege de intuïtieve interface en ondersteuning voor meerdere afspeellijsten. Je kunt eenvoudig overschakelen tussen terugkijken en live tv zonder dat de stream onderbroken wordt.",
+        "GSE Smart IPTV en Smart IPTV ondersteunen catch-up via een aparte EPG-modus. In GSE moet je de zenderlijst openen, vervolgens op het EPG-icoon tikken en dan de optie ‘Replay’ selecteren. De app laadt dan de beschikbare programma’s van de afgelopen 48 uur. Het grote voordeel van deze apps is dat ze werken op een breed scala aan apparaten, van smart-tv's tot gameconsoles. Vooral Smart IPTV is populair op Samsung- en LG-tv's, omdat het native draait zonder extra hardware.",
+        "Een praktische tip: niet elke app ondersteunt catch-up uit de doos; het moet worden ondersteund door de playlist die je van IPTV Kopen ontvangt. Wanneer je je abonnement activeert, ontvang je een M3U-link of een Xtream-Codes-API. Zorg ervoor dat de app de juiste parameters leest, zoals ‘catchup=1’ en ‘catchup-source=...’. Mocht het niet werken, dan kun je de 24/7 WhatsApp support van IPTV Kopen inschakelen. Zij helpen je binnen enkele minuten met het configureren van de app, zodat je direct kunt genieten van terugkijken."
+      ],
+      "list": []
+    },
+    {
+      "heading": "De beperkingen van IPTV terugkijken: wat kun je niet verwachten?",
+      "body": [
+        "Hoewel catch-up TV een krachtige functie is, zijn er enkele beperkingen die je moet kennen om teleurstelling te voorkomen. Ten eerste is niet elke zender opgenomen in de catch-up functionaliteit. Kleinere themakanalen, sommige lokale omroepen of zenders met strikte rechtenbeperkingen (bijvoorbeeld premium filmkanalen) bieden vaak geen terugkijkoptie. Dit komt omdat de aanbieder toestemming nodig heeft van de rechtenhouder om inhoud te bufferen en beschikbaar te stellen. Bij IPTV Kopen is de dekking hoog – meer dan 80% van de zenders in de lijst ondersteunt terugkijken – maar controleer de zenderlijst vooraf om te zien of jouw favoriete kanaal erbij zit.",
+        "Ten tweede is de retentieperiode beperkt. De meeste aanbieders bewaren programma’s 24 tot 72 uur; bij IPTV Kopen is dat standaard 48 uur. Dit betekent dat een uitzending van eergisteren niet meer beschikbaar is. Voor oudere content moet je gebruikmaken van de VOD-bibliotheek, die echter alleen geselecteerde films en series bevat. Als je een specifiek nieuwsitem van drie dagen geleden wilt terugzien, is dat dus niet mogelijk via catch-up. Wees je hiervan bewust en plan je kijkmomenten tijdig.",
+        "Een derde beperking is de afhankelijkheid van een stabiele internetverbinding. Terugkijken vereist een constante datastroom, en bij een instabiele wifi-verbinding kun je last krijgen van bufferen, haperingen of een melding dat de stream niet beschikbaar is. In Nederland en België is dit zelden een probleem met glasvezel, maar op het platteland of in oudere appartementen kan het voorkomen. Gebruik bij voorkeur een ethernetkabel in plaats van wifi voor de beste ervaring. De app kan soms vastlopen als de EPG niet correct wordt geladen – een simpele herstart van de app verhelpt dit meestal.",
+        "Tot slot: catch-up werkt niet voor alle typen uitzendingen. Evenementen die live worden gestreamd met een vertraging van enkele seconden (bijv. sommige sportuitzendingen) kunnen incompleet zijn in de terugkijkmodus. Ook kan het zijn dat de eerste paar minuten van een programma ontbreken als de buffer pas later startte. Dit is technisch inherent aan het systeem, maar bij IPTV Kopen wordt de buffer continu gecontroleerd om dergelijke gaten te minimaliseren. Mochten er problemen zijn, dan kun je dat melden via de WhatsApp-ondersteuning, die het doorgeeft aan de technische dienst."
+      ],
+      "list": []
+    },
+    {
+      "heading": "Nederlandse versus Belgische zenders: verschillen in catch-up beschikbaarheid",
+      "body": [
+        "In Nederland is de dekking van catch-up TV onder IPTV-aanbieders over het algemeen breed. Publieke omroepen zoals NPO 1, NPO 2 en NPO 3 zijn bijna altijd beschikbaar voor terugkijken, omdat de NPO zelf al een uitgebreide catch-up dienst heeft (NPO Start). Commerciële zenders zoals RTL 4, RTL 5, RTL 7, SBS6, Net5 en Veronica ondersteunen catch-up eveneens, hoewel sommige programma’s vanwege rechten tijdelijk niet terug te kijken zijn – bijvoorbeeld bepaalde internationale series die later op streamingdiensten verschijnen. Bij IPTV Kopen wordt de catch-up voor Nederlandse zenders geoptimaliseerd door een directe koppeling met de EPG van deze omroepen.",
+        "Belgische zenders vertonen een lichte variatie. VRT-kanalen (Eén, Canvas, Ketnet) zijn doorgaans volledig beschikbaar voor terugkijken, analogon aan VRT NU. VTM, Q2 en Play4 (voorheen VIER) bieden ook catch-up, maar hierbij kan de retentieperiode korter zijn – vaak 24 uur in plaats van 48. Dit komt omdat de lokale rechtenmarkt in België complexer is, met aparte afspraken voor Vlaanderen en Wallonië. Franstalige zenders zoals RTBF en RTL TVI ondersteunen catch-up eveneens, maar de beschikbaarheid kan per zender verschillen. Gebruikers in Brussel die tweetalig kijken, merken dat de catch-up voor Waalse zenders soms wat trager laadt vanwege serverlocaties.",
+        "Specifieke sportzenders zijn een apart hoofdstuk. Ziggo Sport, ESPN (in Nederland) en sporza (in België) bieden catch-up, maar alleen voor bepaalde evenementen. Live wedstrijden zijn vaak 24 uur terug te kijken, maar samenvattingen kunnen worden verwijderd vanwege contracten met de competities. Formule 1-uitzendingen op Ziggo Sport zijn bijvoorbeeld slechts 12 uur beschikbaar. Houd hier rekening mee als je een race later wilt bekijken. Bij IPTV Kopen wordt dit per zender aangegeven in de zenderlijst, zodat je niet voor verrassingen komt te staan.",
+        "Een handig weetje: Belgische zenders hebben vaak een aparte catch-up interface in de EPG, aangeduid met ‘Gemist’ of ‘Replay’. In Nederland heet het meestal ‘Terugkijken’. De app TriViMate en IPTV Smarters passen deze labels automatisch aan op basis van de regio-instellingen van jouw account. Als abonnee van IPTV Kopen kun je in het dashboard zelf aangeven of je de Nederlandse of Belgische zenderlijst wilt gebruiken, wat de catch-up ervaring verder optimaliseert. Dit maakt het eenvoudig om tussen de twee markten te schakelen."
+      ],
+      "list": [
+        "Controleer of je favoriete zender een catch-up-icoon heeft in de zenderlijst.",
+        "Let op de retentieperiode: 24 uur voor sommige Belgische zenders, 48 uur voor Nederlandse.",
+        "Gebruik de EPG van de app om te zien hoe ver terug je kunt spoelen per zender.",
+        "Meld een ontbrekende zender bij de support, zodat IPTV Kopen het kan toevoegen."
+      ]
+    },
+    {
+      "heading": "Catch-up TV combineren met andere handige IPTV-functies",
+      "body": [
+        "Return kijken is nog krachtiger wanneer je het combineert met andere functionaliteiten van een IPTV abonnement. Neem bijvoorbeeld de pauzeer- en hervatfunctie: als je midden in een terugkijkprogramma wordt onderbroken, kun je de stream pauzeren en later via hetzelfde apparaat of een ander apparaat verder kijken. IPTV Kopen ondersteunt ‘cross-device syncing’, zolang je dezelfde app en account gebruikt. Dit is ideaal voor mensen die thuis beginnen met kijken op de tv en onderweg verder kijken op de tablet, met behoud van de audio- en videokwaliteit.",
+        "Een andere krachtige combinatie is die met de uitgebreide VOD-bibliotheek. Stel dat je een serie hebt ontdekt via catch-up, maar de aflevering van vorige week is al verlopen. In veel gevallen staat de serie ook in de VOD-catalogus van IPTV Kopen, die honderden films en series bevat in HD en 4K. Je kunt dan naadloos overschakelen van terugkijken naar on-demand, zonder dat je een andere app hoeft te openen. Dit bespaart tijd en maakt de kijkervaring vloeiender. De zoekfunctie in apps zoals IPTV Smarters doorzoekt zowel catch-up als VOD tegelijk.",
+        "Daarnaast kun je catch-up combineren met meerdere afspeellijsten. Als abonnee van IPTV Kopen ontvang je één hoofdlijst, maar sommige apps staan het importeren van extra lijsten toe (bijv. een gratis lijst voor lokale zenders). TiviMate biedt een functie ‘Groupes’ waarmee je catch-up streams van verschillende lijsten kunt combineren in één overzicht. Dit is handig voor gebruikers in België die zowel Vlaamse als Waalse zenders willen terugkijken zonder telkens van lijst te wisselen.",
+        "Tot slot is er de integratie met timers en herinneringen. Hoewel catch-up automatisch werkt, kun je in apps zoals TiviMate een herinnering instellen voor een live uitzending die je niet wilt missen. Als je de herinnering mist, kun je nog via catch-up terugkijken. Dit creëert een vangnet: je hoeft nooit meer een programma te missen, zelfs niet als je vergeetachtig bent. De 24/7 WhatsApp support van IPTV Kopen kan je ook helpen bij het instellen van automatische opname-instellingen in de app, hoewel dit strikt genomen geen opname is maar een bladwijzer in de catch-up."
+      ],
+      "list": []
+    },
+    {
+      "heading": "Problemen met catch-up TV oplossen: tips voor een vlekkeloze ervaring",
+      "body": [
+        "Ondanks de robuuste technologie kunnen er af en toe problemen optreden met catch-up TV. Het meest voorkomende probleem is dat de optie ‘Terugkijken’ niet verschijnt in de app. Dit heeft vaak te maken met een verkeerde playlist-configuratie. Zorg ervoor dat de M3U-URL die je van IPTV Kopen hebt ontvangen, de juiste catch-up parameters bevat. Open de playlist in een teksteditor en controleer of er regels zijn zoals ‘#EXTVLCOPT:http-catchup=1’ of ‘catchup-type=default’. Als dit ontbreekt, vraag dan een nieuwe link aan via de WhatsApp-ondersteuning, die je binnen enkele minuten een werkende URL stuurt.",
+        "Een tweede veelvoorkomend probleem is bufferen tijdens het terugkijken. Dit kan worden veroorzaakt door een te lage internetverbinding of overbelasting van de server. Test eerst je verbinding met een snelheidstest: minimaal 10 Mbps voor HD, 25 Mbps voor 4K. Schakel indien mogelijk over naar een 5GHz wifi-netwerk of een ethernetkabel. Als het probleem aanhoudt, kan het zijn dat de catch-up server tijdelijk overbelast is, bijvoorbeeld tijdens een populair evenement. In dat geval kun je het beste een paar uur wachten en het opnieuw proberen. IPTV Kopen gebruikt meerdere redundant servers, maar piekdrukte kan nog steeds voorkomen.",
+        "Soms laadt de EPG niet (alle programma’s zijn leeg of er staat ‘No information’). Dit is vaak een app-specifiek probleem. Ververs de EPG door de app opnieuw op te starten of de playlist opnieuw te importeren. In TiviMate kun je naar ‘Settings’ &gt; ‘EPG’ &gt; ‘Update EPG’ gaan. In IPTV Smarters is er een optie ‘Refresh Playlist’. Als de EPG blijft weigeren, verwijder dan de cache van de app via de instellingen van het apparaat. Bij IPTV Kopen wordt de EPG continu gesynchroniseerd met de Rovi-gids, dus een storing is zeldzaam, maar een dagelijkse update kan helpen.",
+        "Tot slot kan het gebeuren dat een programma wel in de EPG staat, maar niet afspeelt (‘Stream not found’). Dit betekent dat het segment op de server is verwijderd vanwege rechtenbeperkingen of overschrijding van de retentietijd. Helaas is hier geen oplossing voor; je kunt alleen het programma via VOD proberen. Meld het wel aan de support, zodat zij kunnen controleren of de retentie-instelling correct is. In de meeste gevallen werken alle programma’s van de laatste 48 uur foutloos, dankzij de geavanceerde infrastructuur van IPTV Kopen. Door deze tips te volgen, minimaliseer je onderbrekingen en haal je het maximale uit jouw terugkijkervaring."
+      ],
+      "list": []
+    },
+    {
+      "heading": "Meer weten?",
+      "body": [
+        "Lees ook ons artikel over <a href=\"/nieuws/iptv-en-netneutraliteit-in-nederland-belgie\">IPTV en netneutraliteit in Nederland en België: wat de afschaffing elders betekent voor jou</a>."
+      ],
+      "list": []
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kan ik met IPTV Kopen à la minute terugkijken, of moet ik eerst een programma selecteren?",
+      "a": "Je kunt direct terugkijken zodra een live uitzending bezig is. Open een live zender en spoel enkele seconden terug – de app activeert dan automatisch de catch-up modus voor de afgelopen uren. Je hoeft dus niet vooraf een programma te selecteren. Als je specifiek een gemist programma van eerder vandaag wilt kijken, kun je via de EPG het exacte tijdstip kiezen."
+    },
+    {
+      "q": "Werkt catch-up TV op alle apparaten, zoals smart-tv's, Android en iOS?",
+      "a": "Ja, catch-up TV werkt op de meeste apparaten die IPTV ondersteunen. Dit omvat smart-tv's met Tizen (Samsung), webOS (LG), Android TV, Fire TV Stick, Apple TV, iOS en Android smartphones/tablets. Zolang de app (IPTV Smarters, TiviMate, Smart IPTV of GSE Smart IPTV) de catch-up functionaliteit ondersteunt, kun je terugkijken. Let op: sommige oudere smart-tv's hebben mogelijk verouderde app-versies – update deze dan eerst naar de nieuwste versie via de app store van de tv."
+    },
+    {
+      "q": "Hoe lang kan ik terugkijken met IPTV Kopen – is het altijd 48 uur?",
+      "a": "De standaard retentieperiode is 48 uur voor de meeste zenders in het IPTV Kopen-abonnement. Voor enkele specifieke zenders, vooral Belgische commerciële kanalen, kan dit teruggebracht zijn tot 24 uur vanwege rechtenbeperkingen. De exacte duur wordt getoond in de EPG van de app, vaak aangegeven met een klokje of de tekst ‘Beschikbaar tot...’. Programma's die ouder zijn dan deze periode, zijn definitief verwijderd en kunnen niet worden hersteld."
+    },
+    {
+      "q": "Kan ik catch-up TV gebruiken terwijl ik een ander programma live stream?",
+      "a": "Ja, dat is mogelijk zolang je IPTV abonnement meerdere gelijktijdige streams ondersteunt. IPTV Kopen staat standaard vier gelijktijdige verbindingen toe. Je kunt dus op één apparaat een live uitzending kijken en op een tweede apparaat een catch-up programma starten. Houd er wel rekening mee dat beide streams bandbreedte verbruiken; bij een langzame internetverbinding kan dit leiden tot haperingen. Gebruik bij voorkeur een bekabelde verbinding voor het meest stabiele resultaat."
+    },
+    {
+      "q": "Waarom zie ik bij sommige zenders geen catch-up optie, ook al staat die in de lijst?",
+      "a": "Er zijn twee mogelijke oorzaken. Ten eerste ondersteunt de betreffende zender mogelijk geen catch-up vanwege rechten of technische beperkingen – dit wordt aangegeven in de zenderlijst. Ten tweede kan het zijn dat je app niet correct is geconfigureerd. Controleer of je playlist de juiste catch-up parameters bevat (bijv. ‘catchup=1’ in de M3U-URL). Als dit niet het geval is, neem dan contact op met de 24/7 WhatsApp support van IPTV Kopen om een geüpdatete playlist te ontvangen."
+    },
+    {
+      "q": "Is het mogelijk om catch-up TV op te nemen of te downloaden voor offline kijken?",
+      "a": "Nee, catch-up TV is een streamingfunctie en biedt geen mogelijkheid om de content te downloaden of lokaal op te slaan. De stream wordt tijdelijk op de server gebufferd en alleen gestreamd tijdens het kijken. Dit voorkomt auteursrechtenschending en beschermt de rechten van de omroepen. Als je offline wilt kijken, kun je alternatieven overwegen zoals het opnemen via een aparte DVR-functie in sommige apps (bijv. TiviMate met een USB-stick), maar dit valt buiten de standaard catch-up functionaliteit van IPTV Kopen."
+    }
+  ]
+}
