@@ -202,5 +202,12 @@
     "category": "technique",
     "status": "done",
     "slug": "iptv-terugkijken"
+  },
+  {
+    "keyword": "IPTV op Samsung vs LG Smart TV",
+    "angle": "Vergelijking van IPTV-prestaties, installatiegemak en app-beschikbaarheid tussen Samsung en LG Smart TV's",
+    "category": "comparatif",
+    "status": "done",
+    "slug": "iptv-op-samsung-vs-lg-smart-tv"
   }
 ]
