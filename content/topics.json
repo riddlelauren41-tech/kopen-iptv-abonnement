@@ -209,5 +209,12 @@
     "category": "comparatif",
     "status": "done",
     "slug": "iptv-op-samsung-vs-lg-smart-tv"
+  },
+  {
+    "keyword": "IPTV op iPhone en iPad",
+    "angle": "Stap-voor-stap installatiegids voor IPTV op iPhone en iPad",
+    "category": "device",
+    "status": "done",
+    "slug": "iptv-op-iphone-en-ipad"
   }
 ]
