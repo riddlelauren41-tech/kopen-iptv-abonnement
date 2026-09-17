@@ -216,5 +216,12 @@
     "category": "device",
     "status": "done",
     "slug": "iptv-op-iphone-en-ipad"
+  },
+  {
+    "keyword": "IPTV Philips Smart TV",
+    "angle": "Stapsgewijze handleiding voor het installeren van IPTV op Philips Smart TV",
+    "category": "device",
+    "status": "done",
+    "slug": "iptv-philips-smart-tv"
   }
 ]
