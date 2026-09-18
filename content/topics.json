@@ -223,5 +223,12 @@
     "category": "device",
     "status": "done",
     "slug": "iptv-philips-smart-tv"
+  },
+  {
+    "keyword": "IPTV ouderlijk toezicht",
+    "angle": "Zo stel je ouderlijk toezicht in op IPTV voor een veilige kijkervaring voor kinderen",
+    "category": "technique",
+    "status": "done",
+    "slug": "iptv-ouderlijk-toezicht"
   }
 ]
