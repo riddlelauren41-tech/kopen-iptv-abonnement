@@ -237,5 +237,12 @@
     "category": "pricing",
     "status": "done",
     "slug": "iptv-abonnement-opzeggen"
+  },
+  {
+    "keyword": "IPTV op Nvidia Shield",
+    "angle": "IPTV installeren op Nvidia Shield: stap-voor-stap handleiding voor beginners",
+    "category": "device",
+    "status": "done",
+    "slug": "iptv-op-nvidia-shield"
   }
 ]
