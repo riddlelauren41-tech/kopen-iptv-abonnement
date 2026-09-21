@@ -244,5 +244,12 @@
     "category": "device",
     "status": "done",
     "slug": "iptv-op-nvidia-shield"
+  },
+  {
+    "keyword": "IPTV voor Nederlandse gemeenschap in het buitenland",
+    "angle": "Hoe IPTV expats en buitenlandse Nederlanders helpt om Nederlands tv te kijken in het buitenland, inclusief tips voor installatie en zenderaanbod.",
+    "category": "general",
+    "status": "done",
+    "slug": "iptv-voor-nederlandse-gemeenschap-in-het-buitenland"
   }
 ]
