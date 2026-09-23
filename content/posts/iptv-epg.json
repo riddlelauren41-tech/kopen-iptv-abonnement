@@ -1,0 +1,142 @@
+{
+  "slug": "iptv-epg",
+  "title": "IPTV EPG instellen: de complete gids voor jouw IPTV-abonnement",
+  "date": "2026-09-23",
+  "author": "IPTV Kopen Team",
+  "readTime": 9,
+  "excerpt": "Leer hoe je de elektronische programmagids (EPG) instelt voor jouw IPTV abonnement in Nederland en België.",
+  "cover": "/blog/generated/iptv-epg.jpg",
+  "coverAlt": "Overzicht van IPTV EPG instellingen op een televisiescherm met zenderlijst en programmainformatie.",
+  "category": "install",
+  "categoryLabel": "Installatie",
+  "sections": [
+    {
+      "heading": "Wat is EPG en waarom is het cruciaal voor jouw IPTV-ervaring?",
+      "body": [
+        "De elektronische programmagids, kortweg EPG, is het digitale equivalent van de papieren tv-gids. Het toont je in real-time welke programma’s, films en series er op welke zender worden uitgezonden. Voor gebruikers van een <a href=\"/iptv-abonnement\">IPTV abonnement</a> is een goed werkende EPG onmisbaar, omdat het de kijkervaring overzichtelijk en gebruiksvriendelijk maakt. Zonder EPG moet je blindelings door zenders klikken of zelf onthouden wanneer je favoriete programma begint. Met EPG zie je in één oogopslag het volledige aanbod van de komende uren of dagen.",
+        "Bij <strong>IPTV Kopen</strong> begrijpen we dat EPG meer is dan een luxe: het is een essentieel onderdeel van een professionele dienst. De programmagids wordt automatisch geladen zodra je een zender opent in compatibele apps zoals IPTV Smarters of TiviMate. Hierdoor kun je niet alleen zien wat er nu speelt, maar ook plannen wat je later wilt kijken. Bovendien ondersteunt een goede EPG functies zoals terugkijken en opnemen, mits de bron deze data correct aanlevert. Zonder accurate EPG mis je deze mogelijkheden en wordt je IPTV abonnement een stuk minder waardevol.",
+        "De waarde van EPG reikt verder dan alleen gemak. Het helpt je ook om nieuwe content te ontdekken die je anders misschien zou missen. Door de gids te doorbladeren kun je genres filteren of zoeken naar specifieke titels. Dit verhoogt de betrokkenheid en zorgt dat je meer uit je <a href=\"https://nl.wikipedia.org/wiki/IPTV\" target=\"_blank\" rel=\"noopener noreferrer\">IPTV</a> abonnement haalt. Kortom, EPG is de ruggengraat van een gestructureerde kijkervaring."
+      ],
+      "list": []
+    },
+    {
+      "heading": "Hoe werkt EPG bij IPTV Kopen: bronnen en updates",
+      "body": [
+        "EPG-data wordt bij IPTV-abonnementen doorgaans aangeleverd via XMLTV-bestanden of directe API’s van de aanbieder. IPTV Kopen werkt met meerdere gecureerde bronnen die specifiek zijn afgestemd op Nederlandse en Belgische zenders. Deze bronnen worden regelmatig ververst, soms elk uur, zodat de programmagegevens actueel blijven. De data bevat titels, beschrijvingen, start- en eindtijden, en vaak ook categorieën zoals ‘sport’ of ‘film’. Het is belangrijk dat deze bronnen betrouwbaar zijn, anders zie je verkeerde informatie.",
+        "Zodra je jouw IPTV abonnement activeert, wordt de EPG automatisch gekoppeld aan de meegeleverde zenderlijst. In apps zoals TiviMate kun je handmatig een EPG-url toevoegen, maar bij IPTV Kopen is dit meestal voorgeconfigureerd. De app synchroniseert dan de data en bouwt een lokale cache voor snelle navigatie. Mocht de EPG niet laden, dan kan het helpen om de app te herstarten of de cache te wissen. Dit proces verschilt per app, maar de onderliggende mechanismen zijn hetzelfde.",
+        "Een veelgestelde vraag is hoe vaak de EPG wordt bijgewerkt. Bij IPTV Kopen streven we naar updates om de paar uur, maar dit hangt ook af van de externe bron. Sommige bronnen bieden alleen een dagelijkse update, terwijl anderen real-time data leveren. Het advies is om je app in te stellen op automatische synchronisatie, zodat je altijd de meest recente informatie hebt. Gebruik de instellingen in je IPTV-app om de update-intervallen aan te passen."
+      ],
+      "list": [
+        "Controleer welke EPG-bron jouw IPTV-app gebruikt in de instellingen.",
+        "Zorg dat de EPG-url correct is overgenomen van IPTV Kopen.",
+        "Stel de synchronisatiefrequentie in op minimaal elke 4 uur.",
+        "Herstart de app na het toevoegen van een nieuwe EPG-bron."
+      ]
+    },
+    {
+      "heading": "EPG instellen in IPTV Smarters: stap-voor-stap handleiding",
+      "body": [
+        "IPTV Smarters is een van de populairste apps voor het bekijken van IPTV-abonnementen, en het instellen van EPG is eenvoudig. Na het invoeren van je inloggegevens van IPTV Kopen, laadt de app automatisch de bijbehorende zenderlijst en EPG-data. Mocht de EPG niet verschijnen, dan kun je handmatig een EPG-url toevoegen in de instellingen. Ga naar ‘Settings’ &gt; ‘EPG’ en plak de url die je van ons hebt ontvangen. Druk op ‘Save’ en de app begint met synchroniseren.",
+        "Het is aan te raden om na het toevoegen van de EPG de app volledig te sluiten en opnieuw te openen. Soms heeft de app een herstart nodig om de nieuwe data te indexeren. Zodra de EPG geladen is, zie je rechts van elke zender een klokicoon waarmee je de programmagids opent. In IPTV Smarters kun je ook de weergave aanpassen, zoals het tonen van alleen huidige programma’s of een volledige weekoverzicht. Dit maakt het navigeren door het aanbod een stuk prettiger.",
+        "Een tip: gebruik de ‘EPG Search’ functie in IPTV Smarters om snel een specifiek programma te vinden. Typ bijvoorbeeld ‘NOS Journaal’ en je ziet direct op welke zender en hoe laat het wordt uitgezonden. Dit bespaart tijd en zorgt dat je niets mist. Vergeet niet om de EPG af en toe handmatig te verversen als je merkt dat gegevens achterlopen. Dit doe je door in het EPG-menu op ‘Refresh’ te tikken."
+      ],
+      "list": []
+    },
+    {
+      "heading": "EPG configureren in TiviMate: geavanceerde opties",
+      "body": [
+        "TiviMate staat bekend om zijn uitgebreide EPG-functionaliteiten, ideaal voor gebruikers die meer controle willen. Wanneer je je IPTV abonnement van IPTV Kopen in TiviMate hebt geladen, kun je EPG-bronnen toevoegen via ‘Settings’ &gt; ‘EPG’ &gt; ‘Add EPG source’. Plak de url die wij verstrekken en geef deze een herkenbare naam, bijvoorbeeld ‘NL/BE EPG’. TiviMate ondersteunt meerdere bronnen tegelijk, handig als je ook internationale zenders hebt.",
+        "Een unieke functie van TiviMate is de mogelijkheid om EPG-data te koppelen aan specifieke zenders. Als een zender niet de juiste informatie toont, kun je handmatig de juiste EPG-bron selecteren. Dit doe je door lang op de zender te drukken, ‘Set EPG’ te kiezen en de bron aan te wijzen. Zo los je een mismatch op zonder de hele configuratie aan te passen. TiviMate biedt ook een ‘EPG preview’ waarmee je kunt controleren of de data correct is.",
+        "Daarnaast kun je in TiviMate een timer instellen op basis van de EPG. Selecteer een programma in de gids en kies ‘Record’ of ‘Reminder’. Dit werkt alleen als je een opnameapparaat of -functionaliteit hebt geconfigureerd. Voor veel gebruikers is dit de perfecte manier om live tv te plannen zonder er actief bij te zijn. Zorg dat je EPG up-to-date is, anders mis je de starttijd."
+      ],
+      "list": [
+        "Voeg de EPG-url toe via de instellingen van TiviMate.",
+        "Controleer of elke zender de juiste bron koppelt.",
+        "Gebruik de EPG preview om data te valideren.",
+        "Stel timers in via de programmagids."
+      ]
+    },
+    {
+      "heading": "Veelvoorkomende EPG-problemen en hoe je ze oplost",
+      "body": [
+        "Geen EPG-data zien is een van de meest voorkomende klachten bij IPTV-gebruikers. Dit kan komen door een incorrecte url, een tijdelijke storing bij de bron, of een cacheprobleem in de app. Begin met het controleren van de EPG-url: deze moet exact kloppen en beginnen met ‘http://’ of ‘https://’. Vervolgens kun je de app-cache wissen of de app opnieuw installeren. Bij IPTV Kopen zorgen we dat de url’s altijd werken, maar soms blokkeert een firewall de verbinding.",
+        "Een ander probleem is dat de EPG wel laadt, maar verkeerde tijden of programma’s toont. Dit wijst vaak op een verkeerde tijdzone-instelling. Controleer in je app of de tijdzone op ‘Europe/Amsterdam’ staat. Ook kan het zijn dat de EPG-bron niet volledig compatibel is met jouw zenderlijst. In dat geval kun je proberen een alternatieve EPG-bron te gebruiken of de zender opnieuw aan de juiste bron te koppelen. In TiviMate kun je dit per zender aanpassen.",
+        "Tot slot kan een trage EPG het gevolg zijn van een overladen cache of een langzame internetverbinding. Zorg dat je IPTV-app is bijgewerkt naar de nieuwste versie. Wis af en toe de EPG-cache in de appinstellingen. Als het probleem aanhoudt, neem dan contact op met de ondersteuning van IPTV Kopen via WhatsApp. Wij kunnen de EPG-bron voor je controleren en eventueel een nieuwe url verstrekken."
+      ],
+      "list": [
+        "Controleer de EPG-url op typefouten.",
+        "Stel de juiste tijdzone in (Europe/Amsterdam).",
+        "Wis de app-cache in de instellingen.",
+        "Herstart de app of het apparaat.",
+        "Neem contact op met IPTV Kopen support."
+      ]
+    },
+    {
+      "heading": "EPG timers en opnames: mis nooit een uitzending",
+      "body": [
+        "Een van de krachtigste functies die EPG mogelijk maakt, is het instellen van timers voor opnames of herinneringen. Met een IPTV abonnement van IPTV Kopen kun je, mits je app dit ondersteunt, een programma selecteren in de gids en een timer zetten. De app waarschuwt je dan voor de start of, bij een opnamefunctie, neemt het programma automatisch op. Dit is ideaal voor series of sportwedstrijden die je niet live kunt volgen.",
+        "In TiviMate werkt dit naadloos: je klikt op een toekomstig programma, kiest ‘Record’ en het wordt toegevoegd aan de opnameplanning. Let wel: opnames vereisen voldoende opslagruimte op je apparaat of een externe schijf. Ook moet de stream zelf opneembaar zijn; de meeste zenders ondersteunen dit. Bij IPTV Smarters is de timerfunctie beperkter, maar je kunt wel herinneringen instellen via het EPG-menu.",
+        "Het succes van timers hangt sterk af van de nauwkeurigheid van de EPG-data. Als de starttijd afwijkt, begin je de opname te vroeg of te laat. Kies daarom een EPG-bron die bekend staat om zijn precisie, zoals de XMLTV-bestanden die IPTV Kopen aanlevert. Controleer vooraf of de EPG de juiste tijden toont voor een paar zenders. Zo voorkom je teleurstellingen en mis je nooit een aflevering."
+      ],
+      "list": []
+    },
+    {
+      "heading": "De beste EPG-bronnen voor Nederlandse en Belgische zenders",
+      "body": [
+        "Niet alle EPG-bronnen zijn gelijk; sommige bieden meer details en accuratesse dan andere. Voor Nederlandse en Belgische zenders zijn er gespecialiseerde bronnen die de data direct van de omroepen halen. IPTV Kopen werkt samen met een selectie van deze bronnen om een zo compleet mogelijke gids te bieden. Denk aan bronnen die zowel Nederland 1,2,3 als VTM, Canvas en Eén correct weergeven, inclusief beschrijvingen.",
+        "Een populaire bron is de ‘xmltv.se’ lijst, maar die is niet altijd up-to-date voor lokale zenders. Beter is het om gebruik te maken van de door IPTV Kopen meegeleverde url, die specifiek is samengesteld voor onze gebruikers. Deze url bevat data voor alle zenders in het basispakket, aangevuld met themazenders zoals ESPN, Discovery en National Geographic. Je kunt ook zelf een alternatieve bron toevoegen, zoals ‘epg.thedarkar.com’, maar let op compatibiliteit.",
+        "Het is aan te raden om niet meerdere EPG-bronnen tegelijk te gebruiken, omdat dit tot conflicten kan leiden. Kies één primaire bron en schakel de andere uit in de app. Mocht een zender geen data tonen, dan kun je de bron per zender aanpassen. IPTV Kopen biedt ondersteuning bij het vinden van de juiste bron; neem gerust contact op via WhatsApp als je twijfelt."
+      ],
+      "list": [
+        "Gebruik de EPG-url van IPTV Kopen voor de beste dekking.",
+        "Vermijd het mixen van meerdere bronnen zonder noodzaak.",
+        "Test een alternatieve bron alleen als een zender geen data toont.",
+        "Vraag support als je niet zeker weet welke bron geschikt is."
+      ]
+    },
+    {
+      "heading": "Optimaliseer je EPG voor snelheid en nauwkeurigheid",
+      "body": [
+        "Een snel ladende en accurate EPG vereist een aantal optimalisaties. Allereerst is een stabiele internetverbinding essentieel; een trage of instabiele lijn kan de synchronisatie vertragen. Zorg dat je apparaat verbonden is met een 5GHz wifi-netwerk of bekabeld internet. Daarnaast kun je in de app de EPG-cache groter maken, zodat minder vaak een nieuwe download nodig is. Dit vind je meestal onder ‘EPG Settings’.",
+        "Het beperken van het aantal zenders in je lijst kan ook helpen. Als je honderden zenders hebt, wordt het EPG-bestand groot en duurt het laden langer. IPTV Kopen biedt de mogelijkheid om alleen de zenders te selecteren die je daadwerkelijk kijkt. Maak een favorietenlijst aan in je app; de EPG laadt dan alleen data voor die zenders. Dit versnelt de navigatie aanzienlijk.",
+        "Tot slot: houd je IPTV-app up-to-date. Nieuwe versies bevatten vaak verbeteringen voor EPG-verwerking. Als je merkt dat de EPG vaak wegvalt, probeer dan een andere app zoals GSE Smart IPTV of Smart IPTV. Deze apps hebben elk hun eigen optimalisaties. Bij IPTV Kopen ondersteunen we meerdere apps, dus je kunt altijd experimenteren. Meld problemen direct, dan lossen we het samen op."
+      ],
+      "list": [
+        "Optimaliseer je internetverbinding voor minimale latentie.",
+        "Verklein de zenderlijst door favorieten te gebruiken.",
+        "Stel een grotere EPG-cache in indien beschikbaar.",
+        "Update de IPTV-app naar de nieuwste versie.",
+        "Test een andere app als de EPG traag blijft."
+      ]
+    },
+    {
+      "heading": "Meer weten?",
+      "body": [
+        "Lees ook ons artikel over <a href=\"/nieuws/iptv-roku-installeren\">IPTV op Roku installeren: complete gids voor jouw IPTV abonnement</a>."
+      ],
+      "list": []
+    }
+  ],
+  "faq": [
+    {
+      "q": "Hoe voeg ik een EPG-bron toe in IPTV Smarters?",
+      "a": "In IPTV Smarters ga je naar ‘Settings’ > ‘EPG’ en plak je de url die je van IPTV Kopen hebt ontvangen. Sla de wijzigingen op en herstart de app. De EPG wordt dan automatisch gesynchroniseerd. Als de data niet verschijnt, controleer dan of de url correct is en of je internetverbinding werkt. Je kunt ook handmatig op refresh drukken in het EPG-menu."
+    },
+    {
+      "q": "Waarom toont mijn EPG de verkeerde tijden?",
+      "a": "Dit komt meestal door een verkeerde tijdzone-instelling. Zorg dat in je IPTV-app de tijdzone op ‘Europe/Amsterdam’ staat. Ook kan het zijn dat de EPG-bron niet de juiste tijdzone hanteert. Probeer een andere bron of neem contact op met de support van IPTV Kopen voor een aangepaste url. Soms helpt het om de app-cache te wissen en opnieuw te synchroniseren."
+    },
+    {
+      "q": "Kan ik EPG gebruiken voor opnames?",
+      "a": "Ja, als je IPTV-app opnames ondersteunt (bijvoorbeeld TiviMate), kun je via de EPG een programma selecteren en een opname plannen. Let op: je hebt voldoende opslagruimte nodig en de stream moet opneembaar zijn. Niet alle apps bieden deze functionaliteit; IPTV Smarters heeft alleen herinneringen. Controleer de instellingen van je app voor de exacte mogelijkheden."
+    },
+    {
+      "q": "Hoe vaak wordt de EPG bij IPTV Kopen geüpdatet?",
+      "a": "De EPG-bronnen worden doorgaans om de paar uur ververst, afhankelijk van de externe aanbieder. Sommige bronnen updaten elk uur, andere dagelijks. Je kunt in de app een synchronisatie-interval instellen, bijvoorbeeld elke 4 uur, om altijd actuele data te hebben. Bij IPTV Kopen streven we naar een zo frequent mogelijke update voor de beste ervaring."
+    },
+    {
+      "q": "Wat moet ik doen als de EPG helemaal niet laadt?",
+      "a": "Controleer eerst de EPG-url op typefouten. Wis dan de app-cache en herstart het apparaat. Als het probleem aanhoudt, probeer een andere app of neem contact op met IPTV Kopen via WhatsApp. Wij kunnen de bron testen en een werkende url verstrekken. Soms blokkeert een firewall de verbinding, dus probeer ook een andere netwerkverbinding."
+    }
+  ]
+}

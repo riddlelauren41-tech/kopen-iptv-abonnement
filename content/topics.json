@@ -258,5 +258,12 @@
     "category": "general",
     "status": "done",
     "slug": "iptv-voor-live-nieuws-en-actualiteit"
+  },
+  {
+    "keyword": "IPTV EPG",
+    "angle": "Elektronische Programmagids (EPG) instellen voor je IPTV-abonnement",
+    "category": "install",
+    "status": "done",
+    "slug": "iptv-epg"
   }
 ]
