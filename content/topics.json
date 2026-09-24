@@ -265,5 +265,12 @@
     "category": "install",
     "status": "done",
     "slug": "iptv-epg"
+  },
+  {
+    "keyword": "IPTV op Raspberry Pi installeren",
+    "angle": "Stap-voor-stap handleiding voor het instellen van IPTV op een Raspberry Pi met Kodi of andere apps, specifiek voor Nederlandse en Belgische gebruikers",
+    "category": "install",
+    "status": "done",
+    "slug": "iptv-op-raspberry-pi-installeren"
   }
 ]

@@ -1,0 +1,173 @@
+{
+  "slug": "iptv-op-raspberry-pi-installeren",
+  "title": "IPTV op Raspberry Pi installeren: volledige handleiding voor Kodi en meer",
+  "date": "2026-09-24",
+  "author": "IPTV Kopen Team",
+  "readTime": 9,
+  "excerpt": "Stap-voor-stap handleiding om IPTV op je Raspberry Pi te installeren met Kodi, TiviMate of IPTV Smarters, specifiek voor Nederland en België.",
+  "cover": "/blog/generated/iptv-op-raspberry-pi-installeren.jpg",
+  "coverAlt": "Raspberry Pi aangesloten op een tv met IPTV-app open, inclusief een IPTV Kopen-abonnement op het scherm",
+  "category": "install",
+  "categoryLabel": "Installatie",
+  "sections": [
+    {
+      "heading": "Waarom een Raspberry Pi ideaal is voor IPTV en welke modellen geschikt zijn",
+      "body": [
+        "De Raspberry Pi is een compacte, energiezuinige singleboardcomputer die uitstekend geschikt is als mediacenter voor <a href=\"https://nl.wikipedia.org/wiki/IPTV\" target=\"_blank\" rel=\"noopener noreferrer\">IPTV</a>. Doordat de Pi weinig stroom verbruikt (ongeveer 2 tot 5 watt) en vrijwel geruisloos werkt, kun je hem 24/7 laten draaien zonder dat dit opvalt in je woonkamer. Voor IPTV-toepassingen is het model Raspberry Pi 4 (2GB of 4GB RAM) de beste keuze, omdat deze beschikt over een quad-coreprocessor die vloeiend 4K-video kan afspelen, mits je abonnement die kwaliteit ondersteunt.",
+        "Een veelgemaakte fout is het gebruiken van een Raspberry Pi 3B+ voor IPTV in 4K: de hardware van de Pi 3 ondersteunt wel H.264-decodering, maar H.265 (HEVC) in 4K levert vaak haperingen op. De Raspberry Pi 4 en de nieuwere Raspberry Pi 5 hebben daarentegen een speciale videodecoder die 4K H.265 aan kan, waardoor je zonder buffering kunt genieten van live tv en films in hoge resolutie. Let wel op dat je een goede microSD-kaart (minimaal klasse 10) gebruikt voor het besturingssysteem en een fatsoenlijke stroomvoorziening van minimaal 3 ampère.",
+        "Naast hardware is ook de netwerkverbinding cruciaal: een Raspberry Pi met Wi-Fi werkt, maar voor de beste IPTV-ervaring raden we een ethernetkabel aan. Zo minimaliseer je jitter en packet loss, wat bij live tv direct zichtbaar is als haperend beeld. Met een <strong>IPTV Kopen</strong>-abonnement van IPTV Kopen profiteer je van hoge streamsnelheden, maar zonder stabiele verbinding op de Pi blijft de kwaliteit achter. Kies daarom altijd voor een bekabelde verbinding of gebruik een 5GHz Wi-Fi-netwerk als ethernet niet mogelijk is."
+      ],
+      "list": [
+        "Raspberry Pi 4 (2GB of 4GB RAM) – aanbevolen voor 4K IPTV",
+        "Raspberry Pi 5 – nog sneller, maar duurder en niet noodzakelijk voor IPTV",
+        "Raspberry Pi 3B+ – geschikt voor HD, maar niet aan te raden voor 4K",
+        "Minimaal 16GB microSD-kaart (Class 10 / A2) voor voldoende opslag",
+        "USB-C voeding 5V/3A (voor Pi 4) of officiële Pi-voeding",
+        "Ethernetkabel of stabiele 5GHz Wi-Fi-verbinding"
+      ]
+    },
+    {
+      "heading": "Het installeren van Raspberry Pi OS en de basisconfiguratie voor Kodi",
+      "body": [
+        "Voordat je IPTV-software kunt installeren, moet je een besturingssysteem op je Raspberry Pi zetten. De meest gebruikte optie voor mediadoeleinden is Raspberry Pi OS (voorheen Raspbian) of LibreELEC, een minimalistisch Linux-besturingssysteem dat speciaal is geoptimaliseerd voor Kodi. Voor beginners raden we LibreELEC aan omdat het direct opstart naar Kodi en geen extra desktopomgeving nodig heeft, wat de prestaties ten goede komt.",
+        "Begin met het downloaden van de Raspberry Pi Imager-tool van de officiële website. Steek de microSD-kaart in je computer, selecteer in de Imager het model Pi dat je hebt, kies 'LibreELEC' of 'Raspberry Pi OS' en klik op 'Write'. Na het flashen plaats je de kaart in de Pi, sluit je een toetsenbord en monitor aan, en start je de Pi op. In LibreELEC wordt Kodi automatisch geladen; in Raspberry Pi OS moet je Kodi later handmatig installeren via de terminal met `sudo apt install kodi`.",
+        "Controleer daarna of de Pi correct is verbonden met het netwerk. Ga naar de netwerkinstellingen en kies voor een vast IP-adres of gebruik DHCP. Optioneel kun je SSH inschakelen zodat je de Pi op afstand kunt beheren via je laptop of telefoon. Dit is handig om later IPTV-abonnementen van aanbieders zoals IPTV Kopen te configureren zonder dat je een toetsenbord op de tv hoeft aan te sluiten. Vergeet niet de systeemupdates uit te voeren (`sudo apt update &amp;&amp; sudo apt upgrade`) om compatibiliteitsproblemen met IPTV-addons te voorkomen."
+      ],
+      "list": [
+        "Download en installeer Raspberry Pi Imager op je pc of Mac",
+        "Flash een microSD-kaart met LibreELEC of Raspberry Pi OS",
+        "Steek de kaart in de Pi en sluit de benodigde kabels aan (ethernet, HDMI, stroom)",
+        "Configureer de netwerkverbinding (bij voorkeur via ethernet)",
+        "Voer systeemupdates uit en activeer SSH indien gewenst"
+      ]
+    },
+    {
+      "heading": "Kodi installeren en het PVR IPTV Simple Client-addon toevoegen",
+      "body": [
+        "Wanneer je Raspberry Pi OS gebruikt, moet je Kodi handmatig installeren. Open de terminal en typ `sudo apt install kodi kodi-addons`. Hiermee installeer je de basis-Kodi plus een aantal veelgebruikte add-ons. Bij LibreELEC is Kodi al standaard aanwezig, maar moet je nog de PVR IPTV Simple Client installeren. Dit is de add-on waarmee je m3u-link of XMLTV-epg van je IPTV-abonnement kunt inladen in Kodi.",
+        "Open Kodi en ga naar het menu Add-ons (of via het tandwielpictogram) &gt; Mijn add-ons &gt; PVR-clients. Zoek naar 'IPTV Simple Client' en klik op Installeren. Na installatie moet je de add-on configureren: voer het pad in naar het m3u-bestand van je IPTV-provider. Voor IPTV Kopen ontvang je een persoonlijke m3u-link via e-mail of de klantenomgeving. Kopieer die URL en plak deze in het veld 'M3U-playlist-URL'. Herhaal dit voor de XMLTV-URL (EPG) om tv-gidsgegevens te krijgen.",
+        "Een veelvoorkomend probleem is dat Kodi alleen werkt met een lokale m3u-file en niet met een URL. Voeg in dat geval eerst het m3u-bestand via een webbrowser of wget-commando toe aan de Pi, of gebruik een variabele in LibreELEC via de map `/storage/.kodi/userdata/addon_data/pvr.iptvsimple/`. Na de configuratie start je Kodi opnieuw op of herlaad je de PVR-addon. Binnen enkele seconden verschijnen alle zenders en programma's in de Kodi-interface, klaar om af te spelen met je <a href=\"/iptv-abonnement\">IPTV abonnement</a>."
+      ],
+      "list": [
+        "Installeer Kodi via terminal of gebruik LibreELEC",
+        "Open Kodi en ga naar Add-ons &gt; Mijn add-ons &gt; PVR-clients",
+        "Selecteer 'IPTV Simple Client' en installeer het",
+        "Voer de m3u-URL van je IPTV Kopen-abonnement in bij de instellingen",
+        "Voeg de XMLTV-URL voor de tv-gids toe",
+        "Herstart de PVR-client en controleer of de zenders worden geladen"
+      ]
+    },
+    {
+      "heading": "Alternatieve IPTV-apps voor Raspberry Pi: TiviMate en IPTV Smarters",
+      "body": [
+        "Hoewel Kodi een populaire keuze is, zijn er ook andere IPTV-apps die direct op Raspberry Pi draaien, zoals TiviMate en IPTV Smarters. Deze apps zijn specifiek ontworpen voor IPTV en bieden een strakkere interface dan Kodi. TiviMate is helaas alleen beschikbaar voor Android TV, maar je kunt Android op de Raspberry Pi installeren via LineageOS of een speciale Android TV-rom, zoals Emteria of de RaspAnd-build. Dit is een geavanceerde optie, maar levert wel een tv-vriendelijke ervaring op met apps uit de Google Play Store.",
+        "Een eenvoudigere route is het gebruik van de IPTV Smarters-app. Deze app is oorspronkelijk voor Android en iOS, maar je kunt hem op Raspberry Pi draaien via een Android-emulator zoals AnBox (in beta) of door een Android-gebaseerde build van Raspberry Pi OS te flashen. IPTV Smarters ondersteunt meerdere gebruikersprofielen, een ingebouwde mediaspeler en ouderlijk toezicht, wat handig is voor gezinnen. Het nadeel is dat het installatieproces wat technischer is dan Kodi, maar voor wie een moderne tv-app-achtige ervaring wil, is het het overwegen waard.",
+        "Daarnaast zijn er lichtgewicht opties zoals GSE Smart IPTV, die werkt via een eenvoudige playlist-upload. GSE is beschikbaar voor Linux, iOS en Android, en je kunt het op Raspberry Pi OS draaien via de Flatpak-versie. Het voordeel van GSE is de ondersteuning voor meerdere audio- en ondertitelsporen en de mogelijkheid om IPTV te integreren met externe EPG-bronnen. Welke app je ook kiest, zorg dat je de nieuwste versie downloadt van de officiële bron – vermijd onbekende APK's van derden om beveiligingsrisico's te mijden. Met een IPTV abonnement van IPTV Kopen kun je eenvoudig overschakelen tussen apps, omdat het abonnement meerdere gelijktijdige verbindingen toestaat."
+      ],
+      "list": [
+        "TiviMate – vereist Android TV op Raspberry Pi (via LineageOS)",
+        "IPTV Smarters – draaien via Android-emulator of Android build",
+        "GSE Smart IPTV – beschikbaar via Flatpak op Raspberry Pi OS",
+        "Smart IPTV – werkt met m3u-bestand, maar is niet officieel beschikbaar voor Pi",
+        "Kodi met PVR IPTV Simple Client – eenvoudigste en meest flexibele optie"
+      ]
+    },
+    {
+      "heading": "Optimaliseren van de IPTV-kijkervaring op je Raspberry Pi",
+      "body": [
+        "Een Raspberry Pi is krachtig genoeg voor IPTV, maar zonder optimalisatie kun je tegen buffering of audiovertraging aanlopen. De eerste stap is het verkleinen van de buffer in de IPTV-app. In Kodi kun je de buffer grootte aanpassen via het bestand `advancedsettings.xml` in de map `userdata`. Voeg code toe zoals `&lt;cachesize&gt;104857600&lt;/cachesize&gt;` om de buffer te vergroten naar 100 MB, wat helpt bij haperingen tijdens live tv. Bij IPTV Smarters kun je de buffer instellen in de app-instellingen onder 'Player' of 'Streaming'.",
+        "Daarnaast is het belangrijk om de grafische instellingen van de Pi te finetunen. Zet in het configuratiescherm van Raspberry Pi OS de GPU-verdeling op 256 MB of 512 MB voor de Pi 5. Dit wijst meer geheugen toe aan de grafische chip, wat vloeiendere weergave van HD- en 4K-streams oplevert. Schakel ook 'hardware acceleration' in in de Kodi-instellingen (onder Speler &gt; Video) en kies voor de mediacodec 'mediacodec' of 'omxplayer' bij oudere builds. Zonder deze instellingen kan de Pi softwarematig gaan decoderen, wat leidt tot schokkerig beeld.",
+        "Een laatste tip is om onnodige add-ons en achtergrondprocessen uit te schakelen. Hoe meer je op de Pi draait, hoe langzamer IPTV reageert. Gebruik een lichte desktopomgeving zoals Openbox of voer LibreELEC in 'pure Kodi'-modus zonder desktop. Als je merkt dat de Pi oververhit raakt (bij langdurig gebruik), installeer dan een kleine heatsink of een ventilator-kitje. De temperatuur mag niet boven de 80°C komen. Een gekoelde Pi werkt stabieler en voorkomt dat live tv vastloopt op het verkeerde moment – zoals tijdens een belangrijke wedstrijd of een nieuwe aflevering via je IPTV abonnement."
+      ],
+      "list": [
+        "Vergroot de cache/buffer in Kodi via advancedsettings.xml",
+        "Stel GPU-geheugen in op 256-512 MB in config.txt",
+        "Schakel hardwarematige videodecodering in bij Kodi",
+        "Verwijder overbodige add-ons en processen van de Pi",
+        "Voeg koellichamen of een ventilator toe om oververhitting te voorkomen",
+        "Gebruik een bekabelde internetverbinding voor de beste stabiliteit"
+      ]
+    },
+    {
+      "heading": "Oplossen van veelvoorkomende problemen bij IPTV op Raspberry Pi",
+      "body": [
+        "Zelfs met de beste configuratie kunnen er haperingen optreden. Het meest voorkomende probleem is 'geen zenders laden' na het invoeren van de m3u-URL. Dit wordt vaak veroorzaakt door een foutieve link of een verkeerd pad in de PVR-addon. Controleer of de m3u-link niet is verlopen: sommige aanbieders, waaronder IPTV Kopen, geven een link die na een bepaalde tijd verloopt of alleen werkt op één IP-adres. Log opnieuw in via de klantenomgeving om een verse link te genereren.",
+        "Een ander hardnekkig probleem is audio die niet synchroon loopt met het beeld. Dit gebeurt vooral bij 4K-streams of HEVC-codering. In Kodi kun je de audiosync handmatig aanpassen via de knop tijdens het afspelen – ga naar Speler &gt; Audiovertraging en stel een waarde in van -200 tot +200 milliseconden. In IPTV Smarters is er een optie 'Audio offset' in de afspeelinstellingen. Soms helpt het om de audio-uitvoer in de Pi in te stellen op HDMI in plaats van analoog, omdat HDMI directe digitale synchronisatie biedt.",
+        "Buffering kan ook komen door een te trage SD-kaart. De Pi leest constant van de SD-kaart bij het laden van de playlist en EPG. Gebruik een kaart met een hoge schrijfsnelheid (A2-classificatie) en overweeg een externe SSD via USB als je een grotere playlist hebt. Verder raden we aan om IPv6 uit te schakelen in de netwerkinstellingen van de Pi: sommige IPTV-servers hebben moeite met IPv6, wat resulteert in time-outs. Na deze aanpassingen werkt een IPTV abonnement van IPTV Kopen doorgaans vlekkeloos op de Raspberry Pi."
+      ],
+      "list": [
+        "Genereer een nieuwe m3u-link in de klantenomgeving van je IPTV-provider",
+        "Pas de audiovertraging aan in de afspeelinstellingen van de IPTV-app",
+        "Vervang een trage SD-kaart door een A2-klasse kaart of een USB 3.0 SSD",
+        "Schakel IPv6 uit via `/etc/dhcpcd.conf` of de netwerkinstellingen",
+        "Test de stream eerst op een andere app (zoals VLC) om probleem te isoleren"
+      ]
+    },
+    {
+      "heading": "Beveiliging en netwerktips voor IPTV op een Raspberry Pi in huisnetwerk",
+      "body": [
+        "Een Raspberry Pi die 24/7 IPTV streamt, is een constant actief apparaat op je netwerk. Het is belangrijk om de beveiliging hiervan op orde te houden, vooral omdat IPTV-aanbieders een stabiele en veilige verbinding vereisen om accountmisbruik te voorkomen. Begin met het instellen van een sterk wachtwoord voor SSH en voor de Kodi-interface (ingesteld via Instellingen &gt; Dienstinstellingen &gt; Webserver). Gebruik geen standaardwachtwoorden zoals 'raspberry' of 'kodi'.",
+        "Overweeg om een VPN op de Raspberry Pi te installeren als je op een gedeeld netwerk werkt, bijvoorbeeld in een studentenhuis. Een VPN versleutelt al je verkeer, waardoor je ISP en anderen niet kunnen zien dat je IPTV streamt. Voor een abonnement van IPTV Kopen is een VPN niet verplicht, maar het kan helpen bij het omzeilen van throttling door sommige providers. Installeer OpenVPN of WireGuard via de terminal en voer de configuratiebestanden in die je van je VPN-aanbieder ontvangt. Let op: kies een VPN-server die dicht bij Nederland of België staat om latency laag te houden.",
+        "Daarnaast is het slim om de Raspberry Pi te isoleren op een apart VLAN of een gastnetwerk als je veel IoT-apparaten hebt. Zo voorkom je dat een eventuele kwetsbaarheid in een add-on gevolgen heeft voor de rest van je thuisnetwerk. Stel in de firewall van de router alleen de benodigde poorten open (bijvoorbeeld 80/8080 voor webinterface, 22 voor SSH, en poort 1234 voor UDP als je een VPN gebruikt). Door deze maatregelen blijft je IPTV abonnement veilig en stabiel, zonder dat onbevoegden toegang krijgen tot de streamgegevens.",
+        "Tot slot: maak regelmatig een back-up van je Kodi-configuratie. Bij LibreELEC kun je een back-up maken via het add-on 'Back-up', die je instellingen en playlist opslaat op een NAS of USB-schijf. Mocht de SD-kaart defect raken, dan herstel je binnen een kwartier je volledige IPTV-setup. Zo ben je nooit lang zonder live tv, films of series – precies wat je van een premium dienst als IPTV Kopen mag verwachten."
+      ],
+      "list": [
+        "Stel een uniek wachtwoord in voor SSH en de Kodi-webserver",
+        "Installeer een VPN (OpenVPN of WireGuard) voor privacy tegen throttling",
+        "Plaats de Pi in een apart VLAN of gastnetwerk voor extra beveiliging",
+        "Maak regelmatig een back-up van de Kodi-configuratie en playlist",
+        "Sluit ongebruikte poorten in de routerfirewall voor de Pi"
+      ]
+    },
+    {
+      "heading": "EPG instellen en de tv-gids optimaliseren voor Nederlandse en Belgische zenders",
+      "body": [
+        "Een van de grootste voordelen van IPTV op Raspberry Pi is het integreren van een elektronische programmagids (EPG), zodat je precies ziet wat er op welke zender speelt. In Kodi kun je EPG koppelen via de PVR IPTV Simple Client-addon door de XMLTV-URL in te vullen die je van IPTV Kopen ontvangt. Deze URL bevat actuele programmagegevens voor alle Nederlandse en Belgische zenders, inclusief NPO 1, 2, 3, RTL 4, 5, 7, 8, VTM, Canvas, en regionale omroepen.",
+        "Soms blijft de gids leeg of worden er verkeerde tijden weergegeven. Dit gebeurt vaak doordat de EPG-server tijdelijk offline is, of omdat de XMLTV-data niet up-to-date zijn. Ververs de gids handmatig door in Kodi naar Instellingen &gt; PVR &amp; Live TV &gt; Gids te gaan en op 'Nu bijwerken' te klikken. Bij IPTV Smarters en TiviMate kun je een aparte EPG-bron toevoegen onder het tabblad 'EPG'. Zet de verversingsinterval op elke 4-6 uur, zodat de gids altijd actueel blijft zonder de Pi te veel te belasten.",
+        "Een handige tip voor liefhebbers van Nederlandse tv: voeg de EPG van de NPO zelf toe als secundaire bron via de XMLTV-export op webtv.npo.nl. Dit kan handig zijn als de standaard EPG van je IPTV-provider een keer uitvalt. Het nadeel is dat deze bron alleen de publieke omroepen dekt, niet de commerciële zenders. Gebruik daarom de EPG van je IPTV Kopen-abonnement als primaire bron, en de NPO-gids als fallback. In Kodi kun je meerdere XMLTV-bestanden inladen via de optie 'EPG-instellingen', maar let op dat dubbele vermeldingen ontstaan: stel dan een prioriteit in.",
+        "Tot slot kun je de weergave van de gids aanpassen naar een urenoverzicht (bijvoorbeeld 2 uur, 4 uur of 12 uur) in de Kodi-weergaveopties. Voor gebruikers in België is het handig om de taal in te stellen op Nederlands, zodat de programmanamen correct worden weergegeven. Een goede EPG maakt het verschil tussen een rommelig menu en een professionele tv-ervaring – het is dan ook een standaardonderdeel van elk IPTV abonnement dat je via IPTV Kopen afsluit."
+      ],
+      "list": [
+        "Voer de XMLTV-EPG-URL van IPTV Kopen in bij de PVR-addon",
+        "Ververs de EPG handmatig als de gids leeg blijft",
+        "Stel de verversingsinterval in op 4-6 uur voor actuele data",
+        "Voeg een fallback EPG toe voor de NPO-zenders (bij uitval)",
+        "Pas de gidsweergave aan naar 2, 4 of 12 uur overzicht",
+        "Controleer of de taalvoorkeur op Nederlands is ingesteld"
+      ]
+    },
+    {
+      "heading": "Meer weten?",
+      "body": [
+        "Lees ook ons artikel over <a href=\"/nieuws/iptv-roku-installeren\">IPTV op Roku installeren: complete gids voor jouw IPTV abonnement</a>."
+      ],
+      "list": []
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kan ik elke Raspberry Pi gebruiken voor IPTV met Kodi?",
+      "a": "De Raspberry Pi 4 of 5 is het meest geschikt voor IPTV in HD en 4K. Pi 3B+ werkt alleen vloeiend voor SD of HD (niet voor 4K HEVC). Gebruik minimaal 2GB RAM en een stabiele netwerkverbinding voor de beste ervaring met een IPTV Kopen-abonnement."
+    },
+    {
+      "q": "Waarom laden mijn IPTV-zenders niet in Kodi op de Raspberry Pi?",
+      "a": "Dit komt vaak door een foute m3u-link of een verlopen sessie. Log opnieuw in op de klantenomgeving van IPTV Kopen om een verse link te genereren. Controleer ook of de PVR IPTV Simple Client-addon correct is geconfigureerd en of de URL geen typefouten bevat."
+    },
+    {
+      "q": "Kan ik TiviMate op een Raspberry Pi installeren?",
+      "a": "TiviMate is alleen voor Android TV. Je kunt Android TV op de Pi draaien via LineageOS of een speciale build, maar dit is complex. Een eenvoudigere optie is Kodi met de PVR IPTV Simple Client, die net zo goed functioneert voor IPTV op de Raspberry Pi."
+    },
+    {
+      "q": "Hoe los ik buffering op bij IPTV op een Raspberry Pi?",
+      "a": "Vergroot de buffer in Kodi via advancedsettings.xml, gebruik een bekabelde ethernetverbinding en schakel hardwarematige videodecodering in. Verhelp oververhitting van de Pi met heatsinks, want een te hete Pi kan netwerkprestaties verminderen en buffering veroorzaken."
+    },
+    {
+      "q": "Is een VPN aan te raden voor IPTV op de Raspberry Pi?",
+      "a": "Een VPN is niet verplicht, maar kan nuttig zijn op gedeelde netwerken of als je ISP throttling toepast op streaming. Installeer WireGuard op de Pi voor een lage latency. Kies een VPN-server in Nederland of België om de snelheid hoog te houden met je IPTV abonnement."
+    },
+    {
+      "q": "Hoe voeg ik een Nederlandse EPG (tv-gids) toe op de Raspberry Pi?",
+      "a": "Gebruik de XMLTV-URL die IPTV Kopen verstrekt in de PVR IPTV Simple Client-instellingen. Voor een extra bron kun je de EPG van de NPO gebruiken via webtv.npo.nl. Zorg dat de prioriteit op de hoofd-EPG staat om dubbele programma's te voorkomen."
+    }
+  ]
+}
