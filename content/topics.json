@@ -300,5 +300,12 @@
     "category": "comparatif",
     "status": "done",
     "slug": "iptv-apple-tv-vs-fire-tv-stick"
+  },
+  {
+    "keyword": "IPTV voor beginners",
+    "angle": "Stap-voor-stap handleiding voor het kiezen en instellen van IPTV",
+    "category": "install",
+    "status": "done",
+    "slug": "iptv-voor-beginners"
   }
 ]
