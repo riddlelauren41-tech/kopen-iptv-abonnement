@@ -307,5 +307,12 @@
     "category": "install",
     "status": "done",
     "slug": "iptv-voor-beginners"
+  },
+  {
+    "keyword": "IPTV 4K streamen",
+    "angle": "Vereisten, tips en optimalisatie voor het streamen van 4K-inhoud via IPTV",
+    "category": "technique",
+    "status": "done",
+    "slug": "iptv-4k-streamen"
   }
 ]
