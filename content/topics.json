@@ -314,5 +314,12 @@
     "category": "technique",
     "status": "done",
     "slug": "iptv-4k-streamen"
+  },
+  {
+    "keyword": "IPTV Mac installeren",
+    "angle": "Stap-voor-stap gids voor het bekijken van IPTV op macOS",
+    "category": "install",
+    "status": "done",
+    "slug": "iptv-mac-installeren"
   }
 ]
