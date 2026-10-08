@@ -321,5 +321,12 @@
     "category": "install",
     "status": "done",
     "slug": "iptv-mac-installeren"
+  },
+  {
+    "keyword": "IPTV voor ouderen",
+    "angle": "Eenvoudige IPTV-installatie en gebruiksvriendelijke apps voor senioren in Nederland en België",
+    "category": "general",
+    "status": "done",
+    "slug": "iptv-voor-ouderen"
   }
 ]
