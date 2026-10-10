@@ -328,5 +328,12 @@
     "category": "general",
     "status": "done",
     "slug": "iptv-voor-ouderen"
+  },
+  {
+    "keyword": "IPTV vs Netflix",
+    "angle": "Vergelijking van kosten, content en gemak voor Nederlandse en Belgische kijkers",
+    "category": "comparatif",
+    "status": "done",
+    "slug": "iptv-vs-netflix"
   }
 ]
