@@ -335,5 +335,12 @@
     "category": "comparatif",
     "status": "done",
     "slug": "iptv-vs-netflix"
+  },
+  {
+    "keyword": "IPTV spraakbesturing",
+    "angle": "Handige tips om IPTV met spraakassistenten zoals Alexa en Google Assistant te bedienen",
+    "category": "technique",
+    "status": "done",
+    "slug": "iptv-spraakbesturing"
   }
 ]
