@@ -342,5 +342,12 @@
     "category": "technique",
     "status": "done",
     "slug": "iptv-spraakbesturing"
+  },
+  {
+    "keyword": "IPTV Panasonic Smart TV",
+    "angle": "stap voor stap installatie op Panasonic Smart TV",
+    "category": "device",
+    "status": "done",
+    "slug": "iptv-panasonic-smart-tv"
   }
 ]
