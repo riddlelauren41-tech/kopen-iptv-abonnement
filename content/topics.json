@@ -349,5 +349,12 @@
     "category": "device",
     "status": "done",
     "slug": "iptv-panasonic-smart-tv"
+  },
+  {
+    "keyword": "IPTV duurzaamheid",
+    "angle": "Vergelijkt de energie-impact en CO2-voetafdruk van IPTV met traditionele kabeltelevisie en streamingdiensten",
+    "category": "general",
+    "status": "done",
+    "slug": "iptv-duurzaamheid"
   }
 ]
