@@ -363,5 +363,12 @@
     "category": "general",
     "status": "done",
     "slug": "iptv-voor-kerstfilms-en-feestdagen"
+  },
+  {
+    "keyword": "IPTV voor esports",
+    "angle": "De beste IPTV-diensten voor het kijken naar esports-toernooien en livestreams",
+    "category": "sport",
+    "status": "done",
+    "slug": "iptv-voor-esports"
   }
 ]
