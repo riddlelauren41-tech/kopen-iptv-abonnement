@@ -377,5 +377,12 @@
     "category": "device",
     "status": "done",
     "slug": "iptv-op-android-telefoon"
+  },
+  {
+    "keyword": "IPTV installeren op Huawei Smart TV",
+    "angle": "Stap-voor-stap handleiding voor het installeren en configureren van IPTV op Huawei Smart TV-modellen, inclusief tips voor optimalisatie.",
+    "category": "install",
+    "status": "done",
+    "slug": "iptv-installeren-op-huawei-smart-tv"
   }
 ]
