@@ -412,5 +412,12 @@
     "category": "sport",
     "status": "done",
     "slug": "iptv-voor-het-wk-voetbal-2026"
+  },
+  {
+    "keyword": "IPTV voor muziek en radio",
+    "angle": "Ontdek hoe IPTV-abonnementen ook radio- en muziekzenders aanbieden voor Nederland en België",
+    "category": "general",
+    "status": "done",
+    "slug": "iptv-voor-muziek-en-radio"
   }
 ]
