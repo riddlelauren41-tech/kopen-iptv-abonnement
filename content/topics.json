@@ -426,5 +426,12 @@
     "category": "sport",
     "status": "done",
     "slug": "iptv-voor-wielrennen"
+  },
+  {
+    "keyword": "IPTV voor lokale evenementen en festivals",
+    "angle": "Hoe IPTV je toegang geeft tot livestreams van lokale evenementen, festivals en culturele uitzendingen in Nederland en België.",
+    "category": "general",
+    "status": "done",
+    "slug": "iptv-voor-lokale-evenementen-en-festivals"
   }
 ]
