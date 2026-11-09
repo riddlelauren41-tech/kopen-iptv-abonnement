@@ -433,5 +433,12 @@
     "category": "general",
     "status": "done",
     "slug": "iptv-voor-lokale-evenementen-en-festivals"
+  },
+  {
+    "keyword": "IPTV voor camping en vakantieparken",
+    "angle": "Hoe installeer en gebruik je IPTV op een vakantiepark of camping met beperkt internet en draagbare apparaten",
+    "category": "technique",
+    "status": "done",
+    "slug": "iptv-voor-camping-en-vakantieparken"
   }
 ]
