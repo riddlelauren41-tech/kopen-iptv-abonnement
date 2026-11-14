@@ -468,5 +468,12 @@
     "category": "general",
     "status": "done",
     "slug": "iptv-voor-expats-in-belgie"
+  },
+  {
+    "keyword": "IPTV synchronisatie tussen meerdere apparaten",
+    "angle": "Hoe je met één IPTV-abonnement tegelijkertijd op televisie, tablet en telefoon kunt kijken zonder onderbrekingen.",
+    "category": "technique",
+    "status": "done",
+    "slug": "iptv-synchronisatie-tussen-meerdere-apparaten"
   }
 ]
