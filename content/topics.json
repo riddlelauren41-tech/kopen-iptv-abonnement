@@ -475,5 +475,12 @@
     "category": "technique",
     "status": "done",
     "slug": "iptv-synchronisatie-tussen-meerdere-apparaten"
+  },
+  {
+    "keyword": "IPTV Xiaomi Smart TV",
+    "angle": "Stap-voor-stap installatie van IPTV op een Xiaomi Smart TV",
+    "category": "device",
+    "status": "done",
+    "slug": "iptv-xiaomi-smart-tv"
   }
 ]
