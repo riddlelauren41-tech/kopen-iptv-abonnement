@@ -482,5 +482,12 @@
     "category": "device",
     "status": "done",
     "slug": "iptv-xiaomi-smart-tv"
+  },
+  {
+    "keyword": "IPTV voor Nederlandse en Vlaamse scholen",
+    "angle": "Hoe scholen en onderwijsinstellingen IPTV kunnen inzetten voor educatieve doeleinden, zoals het afspelen van live nieuws, documentaires of meertalige content in de klas",
+    "category": "general",
+    "status": "done",
+    "slug": "iptv-voor-nederlandse-en-vlaamse-scholen"
   }
 ]
